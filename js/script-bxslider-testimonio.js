@@ -1,0 +1,1 @@
+jQuery(document).ready(function($){$('.bxslider').bxSlider({minSlides:2,maxSlides:2,slideWidth:500,slideMargin:10,ticker:true,tickerHover:true,useCSS:false,autoControls:true,speed:18000});});

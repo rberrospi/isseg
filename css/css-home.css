@@ -1,0 +1,1481 @@
+*{padding:0px;margin:0px;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;font-family:'Roboto',sans-serif;}body{max-width:1920px;margin:0 auto;}.wrapper{max-width:1160px;margin:0 auto;margin-top:0px;}.clear{clear:both;}.nodesktop{display:none;}#shadow_loader{display:none;position:fixed;width:100%;height:100%;left:0;top:0;background:rgba(255,255,255,.6);z-index:20000000;}.texto-med{font-size:15px;}#div_loader{position:fixed;width:75px;height:75px;left:50%;top:50%;margin-left:-35px;margin-top:-35px;}#filtro{text-align:center;position:fixed;top:0px;left:0px;opacity:0.7;background-color:#666;z-index:800;visibility:visible;width:100%;display:none;}#mensaje{position:fixed;top:65px;z-index:999;display:none;padding-bottom:10px}#aviso-cookies{position:fixed;bottom:0px;color:#353535;background:#f2f2f2;padding:20px;text-align:justify;font-size:12px;width:100%;cursor:pointer;}.container_popup{background:#ffffff;padding:15px;color:#353535;}.container_popup h1{color:#993237;}.mov-menu{height:0px;overflow:hidden;margin:0px}.nuevo{font-size:14px;color:#C10A12;font-weight:500;margin-left:10px;}.unacolumna{width:100%;margin:0 auto;}.doscolumnas{overflow:hidden;width:100%;margin:0 auto;}.trescolumnas{overflow:hidden;width:100%;margin:0 auto;max-width:1160px;margin-top:21px;}.columnaderecha{float:right;}.columnaizquierda{float:left;}.titulo-apartado{width:100%;overflow:hidden;margin:15px auto;text-align:center;margin-top:45px;}.titulo-apartado .tachado{display:table-cell;position:relative;vertical-align:middle;height:0;border-top:1px solid #dddddd;display:block;position:relative;top:15px;float:left;width:30%;}.titulo-rojo{float:left;width:40%;font-weight:300;color:#616161;text-align:center;font-size:26px;margin:0 auto;padding:0 12px;}.texto-subtitulo{font-weight:300;font-size:17px;margin-bottom:9px;}.apartado-blog{width:100%;overflow:hidden;padding:20px;margin-bottom:15px;background-color:#f2f2f2;}.apartado-blog a{text-decoration:none;}.apartado-blog .texto-subtitulo{margin-bottom:15px;font-size:14px;}.apartado-blog .texto-subtitulo:hover{text-decoration:underline;}.iconos-blogs{background:url(../img/accesos-blogs.png) no-repeat center;height:70px;float:left;width:70px;}.apartado-blog .blog-info{margin-left:33px;font-weight:300;color:#000000;}.apartado-blog .izquierda{float:left;width:15%;}.apartado-blog .derecha{float:right;width:82%;}.blog_fecha{font-size:12px;}.blog_button{color:#993237;font-size:14px;text-decoration:underline;margin-top:2px;}.blog_text{font-size:13px;margin-top:8px;color:#000000;}.blog_title{font-size:18px;}.iconos-blogs.blog-corporativo{background-position:0px 0px;}.iconos-blogs.blog-corporativo{background-position:0px 0px;}.iconos-blogs.blog-prl{background-position:-140px 0px;}.iconos-blogs.blog-eerr{background-position:-71px 0px;}.iconos-blogs.blog-ds{background-position:-140px -68px;}.iconos-blogs.blog-log{background-position:-209px 0px;}.iconos-blogs.blog-mba{background-position:-210px -68px;}.iconos-blogs.blog-tec{background-position:-278px 0px;}.iconos-blogs.blog-mkt{background-position:-71px -68px;}.iconos-blogs.blog-rrhh{background-position:0px -69px;}.wrapper h5{text-align:center;font-weight:300;font-size:20px;}.novisible{overflow:hidden!important;margin:0px!important;padding:0px!important;height:0px!important;}.fijotop{position:fixed!important;top:0px!important;z-index:5;margin-top:0px!important;}.fijotop-resultado{position:absolute!important;top:207px!important;}.leermas{display:none;cursor:pointer;color:#993237;margin-top:6px;}.campus-virtual{color:#ffffff;margin-left:0px;font-size:14px;line-height:0px;font-weight:500;}.contenido-secundaria .campus-virtual{color:#ffffff;margin-left:-2px;font-weight:800;}.texto-centrado{text-align:center}.campus-virtual.c-rojo{color:#993237;}h1 .campus-virtual{color:#993237;font-size:20px;}.boton{cursor:pointer;background:#545252;padding:15px;color:#ffffff;text-decoration:none;margin:25px auto;width:50%;text-align:center;-webkit-border-radius:300px;-moz-border-radius:300px;border-radius:300px;-webkit-box-shadow:2px 2px 5px 1px rgba(117,113,113,0.65);-moz-box-shadow:2px 2px 5px 1px rgba(117,113,113,0.65);box-shadow:2px 2px 5px 1px rgba(117,113,113,0.65);}.boton.alargado{width:97%;padding:19px!important;}.boton:hover{background:#993237;}.enlaceboton{text-decoration:none;color:inherit;}.boton-home:hover{background:#545252!important;}.boton-home{background:#D21E1E!important;font-size:21px;padding:5px!important;}.boton-home .campus-virtual{font-size:29px;}.logo-whatsapp{background:url(../img/iconos/css-sprite-rrss-telef.png) no-repeat center;background-position:-256px 0px;margin:0 auto;height:40px;width:40px;}.logo-telefono{background:url(../img/iconos/css-sprite-rrss-telef.png) no-repeat center;background-position:-448px 0px;margin:0 auto;height:40px;width:40px;}.datos-cabec{overflow:hidden;border:1px solid #d8d8d8;padding:5px;margin-top:5px;width:69%;float:right;}.contacto-cab{overflow:hidden;float:left;margin-right:4px;margin-top:0px;margin-left:4px;}header{width:100%;background-color:#FFFFFF;z-index:888;}nav a,.buscador-resultados a{text-decoration:none;color:inherit;}.principal .buscad-header{display:none;}.principal li{cursor:pointer;}.buscador-resultados .nuevo{font-size:12px;color:#C18689;}.resultados-dinamicos{position:absolute;padding:0px;z-index:999;}.resultadosBuscar{background:#353535;width:303px;overflow:auto;padding:10px 27px;z-index:11;max-height:500px;}.resultadosBuscarAdicional{border-top:2px dotted #ffffff;background:#353535;margin-top:25px;width:238px;overflow:auto;padding:10px 0px;z-index:12;}.resultados-dinamicos a{color:#ffffff;text-decoration:none;}.resultados-dinamicos a:hover{text-decoration:underline;}.resultados-dinamicos ul{margin-top:10px;margin-bottom:10px;padding:0px;}.resultados-dinamicos li{font-size:12px;font-weight:300;margin:0px;line-height:normal;margin-bottom:9px;padding:4px 0px;color:#ffffff;list-style:none;border-bottom:1px solid #777777;}.secundaria{width:100%;margin:0 auto;background:#993237;position:absolute;top:0px;}.contenido-secundaria{max-width:1160px;margin:0 auto;overflow:hidden;}.secundaria ul{float:left;width:743px;margin:0 auto;overflow:hidden;height:26px;padding-left:0px;}.secundaria h1,.secundaria div.h-uno{float:right;text-align:right;font-size:12px;font-style:italic;font-weight:300;line-height:26px;color:#ffffff;margin-right:7px;}.secundaria ul li{list-style:none;float:left;width:auto;margin-right:20px;text-align:left;font-size:12px;color:#ffffff;padding:5px 5px;cursor:pointer;padding-left:0px;}.cabecera{width:100%;max-width:1160px;margin:0 auto;margin-top:34px;overflow:hidden;margin-bottom:6px;height:87px;}.logos-cabecera{float:left;margin:0 auto;overflow:hidden;margin-top:16px;}.logos-cabecera img{float:left;}.buscad-header{position:relative;float:none;clear:both;margin-bottom:0px;}.buscad-header input{float:right;margin-top:0;width:303px;height:33px;padding:6px;font-size:15px;background:#F3F3F3;font-weight:400;border:1px solid #993237;color:#993237;}.buscad-header ::-webkit-input-placeholder{color:#993237!important;font-weight:400!important;font-size:15px!important}.colaboradora{float:left;margin-left:30px;margin-top:10px;}.colaboradora p{font-size:10px;margin-bottom:4px;color:#6D6D6D;}.colaboradora img{margin-left:10px;}.principal{width:100%;margin:0 auto;background:#993237;margin-top:0px;overflow:hidden;position:relative;z-index:10;}.principal ul{max-width:1160px;overflow:hidden;margin:0 auto;padding:0px;}.principal ul li{list-style:none;float:left;color:#ffffff;font-size:15px;font-weight:400;text-align:left;line-height:43px;margin-right:5.5%;margin-left:0px;margin-bottom:0px;}.principal ul li:last-child{margin-right:0px;}.principal ul li:hover,.secundaria ul li:hover{text-decoration:underline;}.buscar{width:37px;float:left;margin-right:0px;}.encuentra{display:inline-block;vertical-align:bottom;}.boton-lupa{cursor:pointer;float:none;display:inline-block;vertical-align:bottom;height:56px;width:50px;margin-left:5px;position:relative;top:4px;}.boton-lupa .avanzado{font-size:10px;text-align:center;margin-bottom:0px;position:relative;width:50px;display:inline-block;color:#4E4E4E;font-weight:400;}.boton-lupa .lupa{float:none;border-radius:3px;-webkit-border-radius:3px;-moz-border-radius:3px;display:inline-block;vertical-align:bottom;background:#993237;padding:2px 3px;height:33px;width:50px;box-shadow:0px 0px 5px 1px #757171;-webkit-box-shadow:0px 0px 5px 1px #757171;-moz-box-shadow:0px 0px 5px 1px #757171;}.boton-lupa .lupa:hover{background:#d0343b;}.boton-lupa .cristal{border-color:#ffffff;-webkit-border-radius:17px;-moz-border-radius:17px;border-radius:17px;width:17px;height:17px;top:3px;left:10px;}.boton-lupa .mango{background:#ffffff;top:13px;margin-left:23px;margin-top:-11px;width:11px;}.lupa{float:left;}.buscad-header .lupa{cursor:pointer;}.cristal{background:none;border:2px solid #993237;height:20px;top:2px;width:20px;position:relative;-webkit-border-radius:20px;-moz-border-radius:20px;border-radius:20px;margin:0;z-index:2;}.mango{height:2px;width:13px;transform:rotate(45deg);-webkit-transform:rotate(45deg);-moz-transform:rotate(45deg);-o-transform:rotate(45deg);-ms-transform:rotate(45deg);margin-left:14px;margin-top:-8px;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;background:#993237;top:11px;position:relative;}.frases{float:right;width:370px;margin-top:1px;margin-bottom:5px;}.frases p{font-size:16px;margin-bottom:4px;color:#4E4E4E;}.contacto-cab>p{overflow:hidden;font-size:20px;margin-bottom:6px;color:#4E4E4E;}.buscador-texto form{width:100%;margin-bottom:12px;}.buscador-texto form input{height:30px;width:100%;font-size:17px;padding:3px 5px;}.seo_home{font-size:14px;clear:both;padding-top:3px;color:#993237;}.telefono{float:left;text-align:left;font-size:13px;line-height:16px;margin-bottom:0px;color:#4E4E4E;padding-left:0px;}.nograt{margin-right:15px;}.telef{font-size:16px!important;font-weight:600;}.telefono p{font-size:13px;margin-bottom:0px;}.telefono .bandera{margin:0px 5px 0px 0px;width:initial!important;}.boton-flota{background:#ffffff!important;left:50%;margin-left:-45%;position:relative;width:90%!important;padding:18px!important;margin-bottom:30px!important;margin-top:28px!important;cursor:pointer!important;display:block;-webkit-border-radius:300px;-moz-border-radius:300px;border-radius:300px;}.boton-flota:hover{background:#dedede!important;}.boton-flota p{color:#D0343B!important;font-size:21px!important;text-align:center!important;font-weight:400;padding-left:0px!important;}header p,header ul li,header ol li{font-weight:300;}.buscador-resultados{position:absolute;overflow:hidden;background:#f1f1f1;width:100%;padding:16px;max-width:1160px;color:#000000;left:50%;margin-left:-580px;z-index:5;display:none;max-height:60%;overflow-y:scroll;-webkit-box-shadow:1px 1px 4px 2px rgba(117,113,113,0.59);-moz-box-shadow:1px 1px 4px 2px rgba(117,113,113,0.59);box-shadow:1px 1px 4px 2px rgba(117,113,113,0.59);}::-webkit-scrollbar{width:11px;}::-webkit-scrollbar-track{-webkit-box-shadow:inset 0 0 6px rgba(0,0,0,0.3);border-radius:10px;}::-webkit-scrollbar-thumb{border-radius:10px;background:#8A8A8A;}.tablaresultado{overflow:hidden;width:auto;margin-bottom:10px;}.tablaresultado>div,.tablamp{float:left;width:46%;margin:0px 2%;}.buscador-texto form{width:100%;}.buscador-texto form input{width:100%;}.buscador-resultados .tabla .pretit{font-size:12px;font-weight:600;margin:0px;line-height:normal;cursor:default;margin-bottom:16px;text-transform:uppercase;border-bottom:1px solid #cacaca;padding-bottom:2px;text-align:center;}.buscador-resultados li{font-size:13px;font-weight:400;line-height:initial;border-bottom:1px solid #bfbfbf;padding:7px 0px;list-style:none;margin-top:0px;}.buscador-resultados li[data-id-area]:hover,.buscador-resultados a:hover{color:#993237;font-weight:500;text-decoration:none;}.buscador-resultados .tabla.tablaarea,.buscador-resultados .tabla.tablacualificacion{border-right:1px solid #cacaca;padding-right:14px;margin-right:17px;width:219px;margin-bottom:20px;float:left;}.buscador-resultados .tabla.tablaarea li,.buscador-resultados .tabla.tablacualificacion li{cursor:pointer;font-size:13px;border:1px solid #353535;padding:5px;margin-bottom:5px;}.buscador-resultados .tabla.tablaarea li:hover,.buscador-resultados .tabla.tablacualificacion li:hover{background:#353535;border:1px solid #353535;color:#ffffff;}.buscador-resultados .cuadrito{width:4px;height:4px;float:left;margin:5px 6px;position:relative;}.buscador-resultados .cuadro{width:7px;height:7px;float:left;margin:4px 5px 3px 0px;position:relative;}.tabla ul{padding:0px;}.buscador-masterpropio .columnado ul{width:32%;float:none;display:inline-block;vertical-align:top;margin:0px 1% 10px 0px;position:relative;}.columnado ul.vermas{padding-left:0px;display:none;}.columnado.doscol{column-count:2;-moz-column-count:2;-webkit-column-count:2;}.columnado li{-webkit-column-break-inside:avoid;page-break-inside:avoid;break-inside:avoid;margin-left:20px;margin-bottom:0px;}.columnado li.tit_grupo{font-size:12px;font-weight:600;margin:0px;line-height:normal;cursor:default;margin-bottom:16px;text-transform:uppercase;border-bottom:1px solid #757575;padding-bottom:2px;}.columnado li.tit_grupo.primero{margin-top:0px;}.columnado li.sangria{margin-top:3px;}.columnado li.sangria.primero{margin-top:15px;}.columnado li.vermas{border-top:6px solid transparent;border-left:20px solid transparent;border-right:20px solid transparent;border-bottom:none;width:0px;position:relative;left:50%;margin-left:-10px;}.columnado li.vermas.texto{text-align:center;width:40px;left:50%;position:relative;height:10px;line-height:0px;color:#ffffff;font-weight:600;border:none;margin-left:-10px;}.columnado a.flecha_vermas{cursor:pointer;}.columnado a.vermas{display:none;}.tablaarea .selected,.tablacualificacion .selected{color:#ffffff;font-weight:500!important;background:#353535;}.tablaarea .boton,.tablacualificacion .boton{background-color:#525252;text-align:center;text-decoration:none;font-size:13px!important;margin-top:10px;color:#ffffff;width:100%;padding:12px;}.tablaarea .boton:hover,.tablacualificacion .boton:hover{background-color:#993237;color:#ffffff;}.tablaarea .boton a:hover{color:#ffffff!important;}.nav-up{top:-50px;}.localizacion{background:url(../img/iconos/css-sprite-rrss-telef.png);width:14px;height:20px;float:right;margin-left:4px;cursor:pointer;background-position:-431px -17px;}.flota-cont div{margin-top:3px;}.texto-contact{overflow:hidden;font-size:16px;margin-bottom:6px;color:#4E4E4E;}.resto-datos{display:none;}.pop-contacto .telephone{background:url(../img/iconos/css-sprite-rrss-telef.png) no-repeat center;background-position:-342px -7px;height:31px;width:33px;float:left;display:none;}.pop-contacto a{text-decoration:none;overflow:hidden;color:#4E4E4E;width:auto;}.contacto-home .telefono a{text-decoration:none;color:#4E4E4E;}.contacto-home .logo-skype{height:40px;width:40px;float:none;margin-left:auto;background-position:-300px -3px;background-size:initial;}.logo-skype{background:url(../img/iconos/css-sprite-rrss-telef.png) no-repeat center;margin:0 auto;float:left;position:relative;top:-3px;margin-left:7px;background-position:-171px -1px;height:25px;width:23px;background-size:cover;}.horario-skype{float:right;top:-8px;position:relative;}.flota-cont .logo-skype{background-position:-269px -3px;height:40px;width:40px;margin-right:0px;margin-left:10px;top:0px;}.flota-cont .horario-skype{top:5px;}.flota-cont .logo-phone{background:url(../img/iconos/css-sprite-rrss-telef.png) no-repeat center;background-position:-341px 0px;margin:0 auto;height:40px;width:40px;float:left;margin-right:10px;}.pop-contacto.flota-cont .telephone{display:block;}.pop-contacto.flota-cont .telefonos .telefono{overflow:hidden;width:165px;text-align:right;float:right;padding-right:11px;}.pop-contacto.flota-cont p{font-size:22px;padding-left:20px;color:#ffffff;float:left;line-height:initial;}.pop-contacto.flota-cont .telefonos .telefono p{text-align:right;float:right;font-size:13px;}.pop-contacto.flota-cont .telefonos .telefono .telef{font-size:13px;font-weight:300;color:#ffffff;}.pop-contacto.flota-cont .telefonos .logo-whatsapp{float:left;}.pop-contacto.flota-cont .telefonos .logo-skype{float:left;}.pop-contacto.flota-cont{background:rgba(204,0,0,0.88);padding:14px 8px;border-radius:30px 0px 0px 30px;-moz-border-radius:30px 0px 0px 30px;-webkit-border-radius:30px 0px 0px 30px;overflow:hidden;position:fixed;right:0px;height:auto;z-index:999999999;line-height:26px;top:60px;width:224px;margin:0px;-webkit-box-shadow:-2px 2px 7px 0px rgba(113,113,113,0.75);-moz-box-shadow:-2px 2px 7px 0px rgba(113,113,113,0.75);box-shadow:-2px 2px 7px 0px rgba(113,113,113,0.75);}.pop-contacto.flota-cont div{margin-top:0px;}.pop-contacto.flota-cont .telefonos{position:relative;float:left;}.pop-contacto.flota-cont .telefonos .telefono{margin-top:18px;width:100%;float:none;}.pop-contacto.flota-cont .telefonos .telefono p{float:none;}.pop-contacto.flota-cont .telefonos .telef{font-size:19px!important;}.clickvideo{position:absolute;width:100%;height:100%;z-index:90;}.bxslider{overflow:hidden;padding:0px!important;margin:0px!important;height:100%;width:100%;}.cabecera-portada a{text-decoration:none;}.bx-wrapper{position:relative;margin:0 auto;padding:0;height:550px;z-index:0!important;}.elemento-slider{margin:0 auto;width:100%;height:auto;}.caja-texto{display:none;position:absolute;bottom:20px;color:#ffffff;background:rgba(0,0,0,.5);padding:12px 12px;}.caja-texto h2{font-weight:300;font-size:25px;padding:0px}.caja-texto h2 span{font-size:42px;}.bx-wrapper .bx-viewport{-moz-box-shadow:none;-webkit-box-shadow:none;box-shadow:none;border:0px;left:0px;background:#ffffff;-webkit-transform:translatez(0);-moz-transform:translatez(0);-ms-transform:translatez(0);-o-transform:translatez(0);transform:translatez(0);}.bx-wrapper .bx-controls-auto{position:absolute;top:74%;width:100%;}.bx-wrapper .bx-loading{min-height:50px;background:url(../img/bx_loader.gif) center center no-repeat #ffffff;height:100%;width:100%;position:absolute;top:0;left:0;z-index:2000;}.bx-wrapper .bx-prev{left:10px;background:url(../img/controls.png) no-repeat 0 -32px;}.bx-wrapper .bx-next{right:10px;background:url(../img/controls.png) no-repeat -43px -32px;}.bx-wrapper .bx-prev:hover{background-position:0 0;}.bx-wrapper .bx-next:hover{background-position:-43px 0;}.bx-wrapper .bx-controls-direction a{position:absolute;top:42%;margin-top:-16px;outline:0;width:32px;height:32px;text-indent:-9999px;z-index:9999;}.bx-wrapper .bx-controls-direction a.disabled{display:none;}.bx-wrapper .bx-controls-auto{text-align:center;}.bx-wrapper .bx-controls-auto .bx-start{display:block;text-indent:-9999px;width:10px;height:11px;outline:0;background:url(images/controls.html) -86px -11px no-repeat;margin:0 3px;}.bx-wrapper .bx-controls-auto .bx-start:hover,.bx-wrapper .bx-controls-auto .bx-start.active{background-position:-86px 0;}.bx-wrapper .bx-controls-auto .bx-stop{display:block;text-indent:-9999px;width:9px;height:11px;outline:0;background:url(images/controls.html) -86px -44px no-repeat;margin:0 3px;}.bx-wrapper .bx-controls-auto .bx-stop:hover,.bx-wrapper .bx-controls-auto .bx-stop.active{background-position:-86px -33px;}.bx-wrapper .bx-controls.bx-has-controls-auto.bx-has-pager .bx-pager{text-align:left;width:80%;}.bx-wrapper .bx-controls.bx-has-controls-auto.bx-has-pager .bx-controls-auto{right:0;width:35px;}.bx-wrapper .bx-caption{position:absolute;bottom:0;left:0;background:#666666;background:rgba(80,80,80,0.75);width:100%;}.bx-wrapper .bx-caption span{color:#fff;display:block;font-size:.85em;padding:10px;}.bx-wrapper .bx-viewport,.bxslider,.bx-wrapper,.bxslider li{height:auto!important;}.bxslider li{position:relative;list-style:none;}.fotograma{display:none;}.contededor-caja-texto{list-style:none;padding-left:0px;width:100%;background:url(../img/slider/banners/RECURSOS-018.jpg) no-repeat center;background-size:cover;height:477px;}.contededor-caja-texto>div{width:67%;padding-top:26px;padding-left:54px;}.contededor-caja-texto a:hover{background:rgba(128,128,128,0.2);}.contededor-caja-texto a{background:rgba(72,71,71,0.41);padding:30px;display:block;height:100%;width:100%;text-decoration:none;-webkit-box-shadow:1px 2px 4px 2px rgba(58,57,57,0.32);-moz-box-shadow:1px 2px 4px 2px rgba(58,57,57,0.32);box-shadow:1px 2px 4px 2px rgba(58,57,57,0.32);}.contededor-caja-texto>div>div{position:relative;bottom:0px;top:0px;margin-bottom:9px;display:inline-block;width:32%;vertical-align:top;height:209px;}.contededor-caja-texto h2{font-weight:400;font-size:26px;margin-bottom:10px;margin-top:0;color:#ffffff;padding:0px;}.contededor-caja-texto img{height:24px;margin-right:10px;}.cabecera-portada{position:relative;}#m-prl{background:url(../img/slider/banners/m-mba.jpg) no-repeat top right;background-size:cover;}#m-cib{background:url(../img/slider/banners/m-ciber.jpg) no-repeat top right;background-size:cover;}#m-alim{background:url(../img/slider/banners/m-mod.jpg) no-repeat top right;background-size:cover;}#m-rrhh{background:url(../img/slider/banners/m-rrhh.jpg) no-repeat top right;background-size:cover;}#m-gi{background:url(../img/slider/banners/m-gest.jpg) no-repeat top right;background-size:cover;}#m-mba{background:url(../img/slider/banners/m-prl.jpg) no-repeat top right;background-size:cover;}.contenido-home{position:relative;}.contenido-home a{color:#993237}.ventajas{overflow:hidden;padding:0px 20px;padding-top:9px;margin-top:0;margin-bottom:0px;}.ventajas ul{width:100%;margin:0 auto;padding:0px;}.ventajas ul li{float:left;width:20%;text-align:center;list-style:none;padding:0px 20px;cursor:pointer;}.ventajas ul li div{background:url(../img/css-sprite-ventajas-redondas.png) no-repeat center;height:113px;width:112px;margin:0 auto;-webkit-border-radius:50%;-moz-border-radius:50%;border-radius:50%;}.ventajas ul li div:hover{background-color:#E4E2E2}.ventajas p{margin-top:10px;font-size:15px;line-height:17px;}.ventajas .icr-titulacion{background-position:-366px -4px;}.ventajas .icr-online{background-position:-125px -4px;}.ventajas .icr-directo{background-position:-246px -4px;}.ventajas .icr-tutorias{background-position:-4px -4px;}.ventajas .icr-financiacion{background-position:-487px -4px;}.ventajas .icr-docentes{background-position:-241px -242px;}.ventajas .icr-mapa-europa{background-position:-356px -243px;}.exit{display:none;color:white;position:absolute;top:72px;left:-77px;font-size:36px;font-weight:300;text-align:right;cursor:pointer;width:100%;height:30px;}.negro{width:100%;height:100%;background:rgba(0,0,0,.8);overflow:hidden;position:fixed;top:0px;left:0px;z-index:10;}.negro .popup-video{position:fixed;top:124px;left:50%;margin-left:-287px;}.para-negro .popup-video iframe{height:0px;overflow:hidden;margin:0px;padding:0px;}.negro .popup-video iframe{width:570px;height:320px;}.cabecera-formulario{background:rgba(255,255,255,0.8);width:323px;position:absolute;top:26px;right:60px;height:initial;height:inherit;}.formulario-home .form-horiz-text{width:50%;float:left;margin:0 auto;margin-top:5px;color:#000000;overflow:hidden;margin-bottom:8px;font-size:11px;text-align:left;}.formulario-home{width:100%;color:#ffffff;text-align:center;font-weight:300;font-size:23px;overflow:hidden;}.formulario-home .cab p{font-weight:500;padding:15px;color:#353535;font-size:28px;margin-top:30px;}.boton-sombreado{background:#cc0000!important;box-shadow:1px 1px 4px 2px rgba(117,113,113,0.59);-webkit-box-shadow:1px 1px 4px 2px rgba(117,113,113,0.59);-moz-box-shadow:1px 1px 4px 2px rgba(117,113,113,0.59);-o-box-shadow:1px 1px 4px 2px rgba(117,113,113,0.59);cursor:pointer;}.boton-sombreado:hover{background:#993237!important;}.boton-sombreado a:hover{color:#ffffff!important;}.formulario .boton-sombreado{margin:4px;-webkit-box-shadow:1px 1px 4px 2px rgb(146,130,130);-moz-box-shadow:1px 1px 4px 2px rgb(146,130,130);-o-box-shadow:1px 1px 4px 2px rgb(146,130,130);}.sombreado{box-shadow:1px 1px 4px 2px rgba(117,113,113,0.59);-webkit-box-shadow:1px 1px 4px 2px rgba(117,113,113,0.59);-moz-box-shadow:1px 1px 4px 2px rgba(117,113,113,0.59);-o-box-shadow:1px 1px 4px 2px rgba(117,113,113,0.59);cursor:pointer;}.formulario-home .contenido-formulario{width:100%;height:277px;float:right;margin-bottom:0px;padding:5px;padding-top:0px;}.formulario-home{box-shadow:1px 1px 4px 2px rgba(117,113,113,0.59);-webkit-box-shadow:1px 1px 4px 2px rgba(117,113,113,0.59);-moz-box-shadow:1px 1px 4px 2px rgba(117,113,113,0.59);-o-box-shadow:1px 1px 4px 2px rgba(117,113,113,0.59);}.formulario-home .contenido-formulario .centrado{font-size:15px;padding-top:0px;color:#060606;margin:0 auto;width:95%;margin-bottom:0;margin-top:-4px;}.formulario-home .contenido-formulario .centrado strong{font-weight:500;}.formulario-home form{width:100%;height:auto;padding-top:0px;float:none;}.formulario-home .form-horiz-boxes{width:95%;margin:0 auto;overflow:visible;}.formulario-home .form-horiz-izq{float:left;width:49%;list-style:none;}.formulario-home .form-horiz-dch{float:right;width:49%;list-style:none;}.formulario-home input,.formulario-home select{float:none;width:100%;margin:0 auto;height:25px;margin-bottom:0;padding:3px 5px;color:#A5A5A5;font-size:12px;}.formulario-home .clear{clear:none;}.formulario-home input[type="radio"]{width:22px!important;height:16px!important;}.formulario-home #condiciones,#publicidad{height:16px;display:block;width:16px;margin-right:10px;margin-top:5px;float:left;}.formulario-home form a{width:100%;margin:0 auto;color:#353535;margin-left:0px;text-decoration:none;display:block;text-align:left;}.formulario-home .form-horiz-izq,.formulario-home .form-horiz-dch{}.formulario-home #div_por_empresa{margin-bottom:10px;}.formulario-home #div_por_empresa .form-horiz-izq,.formulario-home #div_por_empresa .form-horiz-dch{width:100%;float:none;}.formulario-home .heleido{width:97%!important;}.formulario-home .campo{height:auto;}.formulario-home .empresa-sino{width:100%;overflow:hidden;float:left;padding-top:4px;padding-bottom:4px;}.form-hoirz-boton{width:80%;float:none;clear:both;position:relative;background:#cc0000;-webkit-border-radius:300px;-moz-border-radius:300px;border-radius:300px;-webkit-box-shadow:2px 2px 5px 1px rgba(117,113,113,0.65);-moz-box-shadow:2px 2px 5px 1px rgba(117,113,113,0.65);box-shadow:2px 2px 5px 1px rgba(117,113,113,0.65);overflow:hidden;font-weight:normal;height:52px;margin:0px auto 26px;}.form-hoirz-boton :hover{background:#993237!important;}.formulario-home .enviar{color:#ffffff;text-align:center;font-size:24px;height:100%;width:100%;display:block;line-height:53px;margin:0px auto;}.calltoactionform{display:none;}.form-popup{width:100%!important;position:fixed;height:100%;margin-top:0px!important;top:0;right:0;background:rgba(0,0,0,.8);margin:0 auto;float:none;z-index:10;}.form-popup .cab{width:800px;margin:0 auto;margin-top:100px;overflow:hidden;}.form-popup .cab div{font-size:33px;padding-bottom:0px;margin-top:3px;}.form-popup .contenido-formulario{width:800px!important;margin:0 auto;float:none!important;overflow:hidden;}.form-popup ul li{width:50%!important;float:left!important;}.formulario-home.form-popup .cab{background:#993237;}.formulario-home.form-popup .cab p{color:#ffffff;margin-top:0;padding:26px;}.formulario-home.form-popup .contenido-formulario{background:#f2f2f2;}.formulario-home.form-popup .contenido-formulario .centrado{margin-top:6px;}.formulario-home.form-popup .exit{top:-64px;left:-22px;position:relative;float:right;margin:0px;height:0px;}.boton.cab p{padding:0px;}.boton.cab{background:none;margin:0px auto 10px;}.boton-home.cab p{font-size:24px!important;}.area-sociales{color:#E62B2B;}.area-tecnica{color:#3FBDD0;}.area-salud{color:rgb(251,166,6);}.area-empresariales{color:#EC6429;}.area-calidad{color:#609333;}.area-comercial{color:#C5529A;}.destacados{max-width:none;background:#dddddd;padding:20px;margin-top:40px;}.destacados a{color:#000000;}.titulo-destacados{padding:40px 0px 20px;}.subtitulo-destacados{color:#353535;text-align:center;font-weight:300;font-size:20px;margin-bottom:22px;}.destacados>div{max-width:1160px;margin:0 auto;}.curso-destacado{width:31.5%;background:#f5f5f5;padding:16px;overflow:hidden;margin:7px 0.5%;cursor:pointer;color:#000000;padding-left:10px;display:inline-block;vertical-align:top;text-decoration:none;}.curso-destacado>div{overflow:hidden;height:193px;}.curso-destacado p{font-size:12px;display:inline-block;}.datos p{display:inline-block;}.resaltado-oficial{display:inline-block;background:red;color:#ffffff;border-radius:50%;height:44px;line-height:42px;width:44px;font-size:13px;margin-right:10px;text-align:center;vertical-align:bottom;}.curso-destacado .masteren{font-size:14px;font-weight:300;}.curso-destacado .masterennombre{font-size:22px;font-weight:400;line-height:23px;margin-bottom:5px;}.curso-destacado .slogan{font-size:12px;margin-top:2px;font-style:italic;margin-bottom:5px;}.curso-destacado:hover{background:#ffffff;-webkit-box-shadow:1px 1px 7px 6px rgba(142,142,142,0.59);-moz-box-shadow:1px 1px 7px 6px rgba(142,142,142,0.59);box-shadow:1px 1px 7px 6px rgba(142,142,142,0.59);}.datos{height:47px!important;border-bottom:2px solid;position:relative;top:-16px;margin-bottom:-14px;padding-bottom:3px;}.acreditacion{float:right;position:relative;text-align:right;right:0px;}.listado-masters{width:100%;margin:0 auto;text-align:center;margin-top:31px;background-color:#353535;padding:15px 3% 25px;}.listado-masters h2{font-size:24px;color:#ffffff;font-weight:300;margin-top:20px;cursor:pointer;}.listado-masters h3{font-size:27px;color:#ffffff;font-weight:300;margin-top:26px;border-bottom:1px solid #993237;cursor:pointer;padding-bottom:10px;}.listado-masters h3:after{content:"+";margin-left:10px;font-size:35px;}.listado-masters li{margin-bottom:10px;font-size:18px;font-weight:300;text-align:left;list-style:none;border-top:1px solid #CCCCCC;padding-top:10px;width:97%;}.listado-masters li:first-child{border:0px;}.listado-masters li a:hover{font-weight:500}.listado-masters li a{color:inherit;text-decoration:none;font-weight:300;}.lista-oferta-formativa{overflow:hidden;width:100%;margin:0 auto;margin-top:32px;text-align:left;}.lista-oferta-formativa li{float:left;width:32.6%;padding:20px;background:#f2f2f2;margin:4px 0px;margin-right:1%;list-style:none;-webkit-box-shadow:1px 2px 4px 2px rgba(117,113,113,0.28);-moz-box-shadow:1px 2px 4px 2px rgba(117,113,113,0.28);box-shadow:1px 2px 4px 2px rgba(117,113,113,0.28);}.lista-oferta-formativa li:hover{background:#E8E8E8;}.lista-oferta-formativa li:last-child{margin-right:0%;}.lista-oferta-formativa h2{text-align:center;font-weight:300;font-size:27px;margin-bottom:23px;border-bottom:1px solid #d3d3d3;padding-bottom:5px;color:#3C3C3C;}.lista-oferta-formativa p{font-weight:300;font-size:15px;margin-bottom:8px;}.lista-oferta-formativa a{text-decoration:none;color:inherit;}.listado-masters .m-oficiales,.listado-masters .grados,.listado-masters .m-propios{max-width:1100px;width:100%;margin:0 auto;}.listado-secundario li{font-size:17px;}.eventos-banners{margin-top:60px;}.eventos{float:left;width:46%;border:1px solid #E2E2E2;margin:0 2%;}.eventos p{text-align:center;font-weight:300;font-size:20px;margin:0px;}.eventos a{text-decoration:none;color:inherit;}.titul{text-align:center;padding:19px;font-size:19px;color:#ffffff;text-transform:uppercase;background:#993237;}.titul:hover{background:#545252;}.sem_tit{margin-top:0px;}.sem_fecha p{margin-bottom:1px;font-size:15px;margin-top:4px;}.eventos p,.sem_fecha,.sem_txt{font-size:14px;font-weight:300;text-align:left;}.scroll-y{overflow-y:scroll;height:280px;border-top:1px solid #d8d8d8;padding:0px 4px 13px 22px;border:5px solid #f2f2f2;background:#f2f2f2;}.scroll-y ul{padding-left:0px;}.eventos li{list-style:none;}.pad3{-webkit-column-break-inside:avoid;page-break-inside:avoid;break-inside:avoid;padding-bottom:5px;}.crm-titular,.sem_tit,p.title_new{font-size:19px!important;color:#993237;font-weight:500;margin-top:18px;padding-bottom:0px;margin-bottom:5px;text-decoration:underline;}.video{width:100%;margin-top:30px;background-color:#353535;text-align:center;padding:30px;}.video .titulo-apartado{width:80%;margin:0 auto;margin-bottom:20px;}.video .titulo-rojo{color:#B9B9B9;}.youtube-corporativo{width:570px;height:320px;}.video.home iframe{width:517px;height:289px;}.areas{overflow:hidden;padding:14px 20px;margin-top:18px;max-width:1160px;}.areas ul{width:100%;margin:0 auto;}.areas ul li{float:left;width:16.5%;text-align:center;list-style:none;padding:0px 6px;cursor:pointer;border:0px;}.areas p{font-size:15px;color:#ffffff;}.areas p:hover{font-weight:300;}.areas ul li img{margin:0 auto;margin-bottom:6px;opacity:0.9;}.areas ul li img:hover{opacity:1;}.areas li a{text-decoration:none;color:inherit;}.text-presen{margin-top:57px;font-size:17px;font-weight:300;text-align:left;}.text-presen p{margin-top:20px;}.boton-home p{padding:10px;font-size:15px!important;margin-bottom:0px!important;}.banner-metodologias{width:100%;background:url(../img/baner-metodologia.jpg) no-repeat right;background-size:cover;margin:10px 0px;padding:30px;overflow:hidden;margin-top:55px;padding-top:30px;}.banner-metodologias ul{list-style:none;overflow:hidden;}.banner-metodologias ul li{font-size:22px;margin-bottom:6px;font-weight:300;color:#000000;margin:0 auto;text-align:left;margin-bottom:8px;width:29%;margin:4px 2%;float:left;max-width:1160px;overflow:hidden;background:rgba(255,255,255,.6);padding:14px;}.banner-metodologias ul li:hover{background:rgba(255,255,255,1);transition:all 0.5s;}.banner-metodologias h4{text-align:center;font-weight:400;font-size:23px;margin-bottom:20px;border-bottom:1px solid #d3d3d3;padding-bottom:5px;color:#3C3C3C;}.banner-metodologias p{font-size:14px;margin-bottom:10px;}.banner-metodologias .boton-home p{font-size:18px!important;font-weight:400;padding:1px;}.banner-metodologias img{width:70px;}.banner-metodologias .boton-home a{color:#ffffff;text-decoration:none;}.agencia_colocacion{background:url(../img/banner/banner-agencia-colocacion.gif) no-repeat center;width:100%;height:112px;margin-top:25px;background-size:contain;}.metod-icons{overflow:hidden;width:100%;margin:0 auto;margin-bottom:20px;}.metod-icons>div{width:31%;float:left;margin:1%;text-align:center;}.metod-icons p{font-size:12px;margin-top:6px;margin-bottom:0px;font-weight:400;}.metod-icons>div div{background:url(../img/css-sprite-ventajas-redondas.png) no-repeat center;background-size:500px;height:80px;width:80px;margin:0 auto;}.icr-horario-compatible{background-position:-1px -87px!important;}.icr-top-10{background-position:-83px -88px!important;}.icr-ventajas-online{background-position:-88px -3px!important;}.icr-ventajas-semipresencial{background-position:-165px -87px!important;}.icr-ventajas-presencial{background-position:-174px -3px!important;}.icr-24h{background-position:-248px -85px!important;}.icr-siempre-accesible{background-position:-330px -85px!important;}.icr-networking{background-position:-416px -85px!important;}icr-ventajas-satisfaccion{background-position:-416px -85px!important;}.banner-metodologias .titulo-rojo{float:left;width:50%;font-weight:300;color:#424242;text-align:center;font-size:26px;margin:0 auto;}.banner-metodologias .titulo-apartado{margin:15px auto;margin-top:25px;margin-bottom:36px;}.banner-metodologias .titulo-apartado .tachado{border-top:1px solid #AFAFAF;width:25%;}.banner-metodologias a{text-decoration:none;color:inherit;}.internacional{background:url(../img/fondo-internacional.jpg) no-repeat center;width:100%;margin:40px 0px;background-size:cover;}.internacional ul{list-style:none;overflow:hidden;padding:87px 0px;max-width:1160px;margin:0 auto;width:100%;}.internacional ul li{font-size:22px;margin-bottom:6px;padding:12px 36px;background:rgba(105,105,105,.7);cursor:pointer;font-weight:300;color:#ffffff;margin:0 auto;text-align:center;margin-bottom:8px;width:23.9%;margin-right:1%;display:inline-block;vertical-align:top;max-width:1160px;overflow:hidden;}.internacional ul li:last-child{margin-right:0%;}.texto-inter{font-size:14px;font-weight:300;margin-top:20px;text-align:left;}.internacional ul li:hover{background:rgba(85,85,85,1);}.buscador{margin-top:58px;background:#EBB5BB url(../img/buscador.jpg) no-repeat top;background-size:100%;padding:10px;padding-bottom:35px;color:#ffffff;text-align:center;}.buscador p{font-size:25px;font-weight:400;margin-top:33px;}.buscador form input{width:534px;margin:33px 0px;height:38px;padding:5px;font-size:20px;}.buscador .resultadosBuscar{background:none;width:100%;overflow:hidden;float:right;padding:0px 27px;}.resultados-dinamicos-centro{overflow:hidden;width:534px;margin:0 auto;text-align:left;margin-top:-13px;max-height:370px;overflow-y:scroll;padding-bottom:20px;}.resultados-dinamicos-centro li{font-size:15px;font-weight:300;line-height:initial;padding:6px 0px;color:#353535;}.resultados-dinamicos-centro li:hover{text-decoration:underline;color:#000000;}.resultados-dinamicos-centro li a{text-decoration:none;color:inherit;}.alumnos-realidad{font-size:17px;font-weight:300;text-align:left;}.alumnos-realidad p{margin-bottom:10px;}.alumnos-realidad .videos{width:1160px;margin:0 auto;margin-top:31px;}.alumnos-realidad .youtube-vide{width:558px;height:313px;}.alumnos-realidad .videos .prim{margin-right:36px;}.contacto-home{width:100%;overflow:hidden;margin-top:26px;}.contacto-home .telefono{float:left;width:31%;margin:1%;font-size:15px;text-align:center;border:1px solid #E2E2E2;padding:10px;height:127px;background:#f2f2f2;}.contacto-home .telef{font-size:19px;margin-bottom:7px;}.comunidadimf{margin-top:46px;margin-bottom:20px;}.blogs{list-style:none;font-size:13px;overflow:hidden;margin:0 auto;margin-top:20px;width:720px;padding-left:0px;}.blogs li{float:left;margin-bottom:21px;width:70px;text-align:center;height:128px;margin:0 10px;cursor:pointer;color:#993237;opacity:0.8;}.blogs li div{background:url(../img/accesos-blogs.png) no-repeat center;height:70px;}.blogs li:hover{opacity:1;}.blogs li a{text-decoration:none;color:inherit;}.blogs li p{position:relative;top:73px;}.blogs .blog-corporativo{background-position:0px 0px;}.blogs .blog-prl{background-position:-140px 0px;}.blogs .blog-eerr{background-position:-71px 0px;}.blogs .blog-ds{background-position:-140px -68px;}.blogs .blog-log{background-position:-209px 0px;}.blogs .blog-mba{background-position:-210px -68px;}.blogs .blog-tec{background-position:-278px 0px;}.blogs .blog-mkt{background-position:-71px -68px;}.blogs .blog-rrhh{background-position:0px -69px;}.destacados-opiniones{max-width:none;background:#f2f2f2;padding:20px;margin-top:60px;}.destacados-opiniones video{width:100%;}.alum div{background:url(../img/css-sprite-ventajas-redondas.png) no-repeat center;height:113px;width:112px;margin:0 auto;-webkit-border-radius:50%;-moz-border-radius:50%;border-radius:50%;}.alum div:hover{background-color:#E4E2E2}.alum .icr-ventajas-satisfaccion{background-position:-3px -244px!important;margin-bottom:28px;}.imf-footer{margin-top:41px;width:100%;margin:0 auto;margin-top:53px;text-align:center;}.imf-footer p{font-size:15px;font-weight:300;text-align:center;width:95%;margin:0 auto;}.imf-footer img{margin-top:40px;text-align:center;width:100%;}.acreditaciones{position:relative;overflow:hidden;width:1215px;margin:0 auto;text-align:center;margin-bottom:20px;margin-top:21px;padding-bottom:20px;}.acreditaciones p{margin-bottom:30px;font-size:14px;}.footer-acreditaciones{overflow:hidden;}.footer-acreditaciones .logo-acred{width:165px;height:73px;background:url(../img/logos/acreditaciones-footer.jpg);float:left;}.acreditaciones div.anced{background-position:0px 0px;}.acreditaciones div.c{background-position:-166px 0px;}.acreditaciones div.efqm{background-position:-332px 0px;}.acreditaciones div.oca{background-position:-498px 0px;}.acreditaciones div.aegef{background-position:-664px 0px;}.acreditaciones div.charter{background-position:-830px 0px;}.acreditaciones div.aacsb{background-position:0 -73px;}.acreditaciones div.pactomundial{background-position:-166px -73px;}.acreditaciones div.aeen{background-position:-332px -73px;}.acreditaciones div.cambridge{background-position:-498px -73px;}.acreditaciones div.amacfor{background-position:-664px -73px;}.acreditaciones div.cecap{background-position:-830px -73px;}.acreditaciones div.madrid{background-position:0px -146px;}.acreditaciones div.tuv{background-position:-166px -146px;}.acreditaciones div.asociacion-marketing{background-position:-332px -146px;}.acreditaciones div.cel{background-position:-498px -146px;}.acreditaciones div.eeej{background-position:-664px -146px;}.acreditaciones div.ati{background-position:-830px -146px;}.acreditaciones div.aedipe{background-position:0px -219px;}.acreditaciones div.unesco{background-position:-166px -219px;}.acreditaciones div.agatha{background-position:-332px -219px;}.acreditaciones div.colegioabogados{background-position:-498px -219px;}.acreditaciones div.deloitte{background-position:-664px -219px;}.acreditaciones div.aepsad{background-position:-830px -219px;}.acreditaciones div.fenicia{background-position:0px -282px;}.acreditaciones div.club-excelencia{background-position:-166px -289px;}.acreditaciones div.unwto{background-position:-498px -282px;}.acreditaciones div.modaespana{background-position:-664px -282px;}.acreditaciones div.ale{background-position:-830px -282px;}.acreditaciones div.cehat{background-position:-332px -282px;}.acreditaciones div.ith{background-position:-498px -363px;}.acreditaciones div.ela{background-position:-664px -363px;}.acreditaciones div.amba{background-position:-830px -363px;}.acreditaciones div.mundoposgrado{background-position:0px -437px;}.acreditaciones div.prever{background-position:-166px -437px;}.acreditaciones div.rank-wanabis{background-position:-332px -437px;}.acreditaciones div.portalMBA{background-position:-498px -437px;}.acreditaciones div.cum-laude-emagister{background-position:-664px -435px;}footer{width:100%;}.legal{width:100%;text-align:left;font-size:12px;padding:20px;overflow:hidden;margin-top:31px;background:#353535;color:#ffffff;border-top:2px solid #ffffff;position:relative;z-index:8;padding-bottom:90px;}.legal .columnaizquierda{width:22%;border-left:1px solid #ffffff;border-top:0px;border-bottom:0px;padding-left:10px;margin-left:48px;}.nolegal .columnaizquierda{border:0px;width:33%;}.nolegal .columnaderecha{border:0px;width:23%;margin:0px 2%;}.boton-legal-form{background:#D21E1E;cursor:pointer;color:#ffffff;font-size:23px;border-radius:7px;padding:18px;text-align:center;margin-top:10px;border-radius:200px;margin-bottom:10px;}.boton-legal-form:hover{background:#993237}.boton-footer-telef{text-align:center;}.boton-footer-telef div{border:1px solid #f2f2f2;background:#f2f2f2;color:#353535;font-size:25px;padding:5px;}.boton-footer-telef p{font-size:16px!important;}.legal .columna-datos{width:39%;}.legal img{top:4px;position:relative;}.tit-legal{font-size:17px!important;font-weight:300;margin-bottom:10px!important;}.legal p{font-size:12px;margin-bottom:4px;}.aviso-legal{width:662px;list-style:none;overflow:hidden;margin:38px auto 0px;margin-top:20px;float:none;clear:both;font-weight:300;padding-left:0px;}.legal a{color:inherit;text-decoration:underline;font-weight:300;}.aviso-legal li{float:left;margin-left:20px;cursor:pointer;font-size:12px;font-weight:300;}.aviso-legal li:hover{text-decoration:underline;}.contacto{background:url(../img/iconos/css-sprite-rrss-telef.png) -495px -20px no-repeat;width:163px;height:17px;display:inline-block;vertical-align:bottom;}.rrss{width:325px;list-style:none;overflow:hidden;margin-top:16px;margin-bottom:15px;}.rrss div{background:url(../img/iconos/css-sprite-rrss-telef.png);width:50px;height:39px;float:left;margin-right:4px;opacity:0.7;cursor:pointer;}.rrss div:hover{opacity:1;}.rrss .icon-facebook{background-position:-44px 0px;}.rrss .icon-twitter{background-position:0px 0px;}.rrss .icon-linkedin{background-position:-91px 0px;}.rrss .icon-googleplus{background-position:-198px 0px;}.rrss .icon-youtube{background-position:-142px 0px;}.rrss .icon-instagram{background-position:-660px 0px;}.mv-footer{height:0px;margin:0px;padding:0px;overflow:hidden;}.arrow{display:none;position:fixed;z-index:99999999;left:23px;bottom:23px;background:rgba(242,242,242,0.72);width:58px;height:58px;border-radius:300px;cursor:pointer;-webkit-box-shadow:1px 1px 7px 6px rgba(142,142,142,0.59);-moz-box-shadow:1px 1px 7px 6px rgba(142,142,142,0.59);box-shadow:1px 1px 4px 1px rgba(142,142,142,0.59);}.arrow-top{position:relative;left:26px;top:8px;border-right:2px solid #993237;height:40px;width:3px;}.arrow-top::before{position:relative;left:-8.5px;top:4px;content:"";display:block;width:18px;height:18px;border-right:2px solid #993237;border-top:2px solid #993237;transform:rotate(315deg);-webkit-transform:rotate(315deg);-moz-transform:rotate(315deg);-o-transform:rotate(315deg);margin-right:3px;}.arrow:hover{background:rgba(242,242,242,1);}.colombia .defin-met{margin-top:25px;}.colombia .defin-met p{font-size:17px!important;}.colombia .titulo-destacados{padding:12px 0 5px;}.colombia .estudiar-en-espana{background:url(../img/baner-estudiar-en-espana.jpg) no-repeat center;background-size:cover;width:100%;padding:15px 3% 25px;}.colombia .estudiar-en-espana .marco-video{background:rgba(255,255,255,0.48);padding:20px;border:1px solid #D8D8D8;overflow:hidden;text-align:center;margin:20px auto;}.colombia .boton h2{font-weight:400;font-size:26px;margin:0 auto;}.colombia .titulaciones-col{display:inline-block;vertical-align:top;width:49%;}.colombia .titulaciones-col .centrar{padding:0 30px;}.colombia .titulaciones-col img{height:200px;margin:0 auto;display:block;margin-top:15px;}.colombia a{color:inherit;}.colombia .youtube-corporativo{width:570px;height:320px;border:0px;display:block;margin:0 auto;}.colombia .estudiar-en-espana .video{background:none;}@media screen and (max-width:1640px){.pop-contacto.flota-cont{right:-161px;height:57px;}}@media screen and (max-width:1533px){.cabecera-formulario{height:initial;}.formulario-home .cab p{margin-top:5px;}}@media screen and (max-width:1319px){.cabecera-formulario{top:26px;}.formulario-home .cab p{margin-top:0px;padding-bottom:10px;}}@media screen and (max-width:1240px){.cabecera,.principal{padding:0px 10px;width:100%;max-width:none;}.principal ul{padding:0;width:100%;max-width:none;margin-left:7px;height:auto;}.secundaria{padding-left:10px;}.buscador-resultados{max-width:none;right:0;width:100%;margin:0;left:0;}.formulario{width:85%;}.listado-masters{padding:5px 10px 70px;}.listado-masters .m-oficiales,.listado-masters .grados,.listado-masters .m-propios{width:92%;}.ventajas{margin-top:39px;margin-bottom:40px;}.banner-metodologias ul{margin:0 auto;float:none;}.banner-metodologias ul li{padding:20px;}}@media screen and (max-width:1400px){.contededor-caja-texto h2{font-size:23px;}}@media screen and (max-width:1200px){.principal ul li{margin-right:4.3%;}.caja-texto{padding-left:10px;}.caja-texto h2{font-size:18px;}.caja-texto h2 span{font-size:30px;}.buscador-resultados .tabla.tablaarea,.buscador-resultados .tabla.tablacualificacion{margin-left:0px;}.buscador-resultados .tabla p{line-height:15px;margin-bottom:12px;}.elemento-slider{width:130%;}.caja-texto{width:100%;}.cabecera-formulario{background:none;width:100%;position:relative;top:auto;right:auto;height:auto;}.form-horiz-boxes{width:90%;margin:0 auto;list-style:none;overflow:hidden;}.form-horiz-text p{font-size:12px;text-align:left;overflow:hidden;margin-bottom:0px;color:#000000;padding:0px 6px;}.formulario-home .form-horiz-text{width:50%;float:left;margin:0 auto;margin-top:10px;color:#000000;overflow:hidden;margin-bottom:18px;}.formulario-home{width:100%;color:#ffffff;text-align:center;font-weight:300;font-size:26px;cursor:pointer;overflow:hidden;}.formulario-home .cab{background:#993237;}.formulario-home .cab p{font-weight:300;padding:20px;color:#ffffff;}.acelerador{font-size:20px;padding-top:16px;color:#353535;width:62%;float:right;text-align:left;}.calltoactionform{float:left;width:39%;margin-top:72px;color:#e0585b;font-size:40px;text-align:right;font-weight:400;display:block;}.calltoactionform>div span{font-size:60px;}.calltoactionform>div{float:left;}.formulario-home .mascallto{font-size:24px;float:none;clear:both;text-align:left;width:91%;padding-top:25px;}.flec{position:relative;padding:30px;}.flec:before{content:'';position:absolute;top:0;left:21px;height:100%;width:3px;background:#e0585b;-webkit-transform:skew(18deg,0deg);-moz-transform:skew(18deg,0deg);-ms-transform:skew(18deg,0deg);-o-transform:skew(18deg,0deg);transform:skew(18deg,0deg);}.flec:after{content:'';position:absolute;top:100%;right:36px;height:100%;width:3px;background:#e0585b;-webkit-transform:skew(-18deg,0deg);-moz-transform:skew(-18deg,0deg);-ms-transform:skew(-18deg,0deg);-o-transform:skew(-18deg,0deg);transform:skew(-18deg,0deg);}​
+    .form-extendido{
+        margin: 0 auto;
+    }
+    .form-extendido h3{
+        background: #993237!important;
+    }
+    .formulario-home{  box-shadow: none;}
+    .formulario-home .contenido-formulario{
+        width: 100%;
+        height: auto;
+        background: #E2E2E2;
+        float: right;
+        margin-bottom: 33px;
+        padding: 13px 25px;
+        display: none;
+
+    }
+    .formulario-home .contenido-formulario .centrado {
+        font-size: 18px;
+        padding-top: 0px;
+        color: #060606;
+        margin: 0 auto;
+        width: 91%;
+        margin-bottom: 2px;
+        margin-top: 14px;
+    }
+    .formulario-home .contenido-formulario .centrado strong{
+        font-weight: 500;
+    }
+    .formulario-home form{
+        width: 61%;
+        height: auto;
+        padding-top: 16px;
+        float: right;
+    }
+    .formulario-home  .form-horiz-boxes {
+        width: 100%;
+    }
+    .formulario-home .form-horiz-izq{
+        float: left;
+        width: 49%;
+        list-style: none;
+    }
+    .formulario-home .form-horiz-dch{
+        float: right;
+        width: 49%;
+        list-style: none;
+    }
+    .formulario-home input, .formulario-home select{
+        float: none;
+        width: 100%;
+        margin: 0 auto;
+        height: 27px;
+        margin-bottom: 0;
+        padding: 3px 5px;
+        color: #A5A5A5;
+        font-size: 14px;
+    }
+    .formulario-home .clear{
+        clear:none;
+    }
+    .formulario-home input[type="radio"] {
+        width: 22px!important;
+        height: 16px!important;
+    }
+    .formulario-home #condiciones, #publicidad {
+        height: 20px;
+        float: left;
+        width: 20px;
+        margin-right: 10px;
+        margin-top: 0px;
+    }
+    .formulario-home form a {
+        width: 100%;
+        margin: 0 auto;
+        font-size: 13px;
+        color: #353535;
+        margin-left: 0px;
+        text-decoration: none;
+        text-align: left;
+    }
+    .formulario-home .form-horiz-text .form-horiz-izq, .formulario-home .form-horiz-text .form-horiz-dch{
+        width: 100%;
+    }
+    .formulario-home .empresa-sino {
+        width: 100%;
+        overflow: hidden;
+        float: left;
+        padding-top: 10px;
+    }
+
+    .form-popup .calltoactionform{display: none;}
+    .form-popup.formulario-home form {
+        width: 100%;
+        float: none;
+    }
+    .formulario-home.form-popup .contenido-formulario{
+        display: block!important;
+    }
+    .formulario-home .boton.cab p{
+        /*        margin-top: 30px;*/
+        padding: 0px;
+    }
+
+    .text-presen, .alumnos-realidad{
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 37px;
+    }
+    .alumnos-realidad .videos{
+        width: 900px;
+    }
+    .alumnos-realidad .youtube-vide{
+        width: 429px;
+        height: 240px;
+    }
+    .alumnos-realidad .videos .prim{
+        margin-right: 36px;
+    }
+    .formulario-home{
+        width: 98%;
+        margin: 0 auto;
+    }
+    /*   FIN CONTENIDO*/
+    /*    SLIDER 6 BANNERS*/
+    .contededor-caja-texto{height: 460px;}   
+    .contededor-caja-texto>div {
+        width: 100%;
+        padding: 20px;
+    }
+    .contededor-caja-texto >div>div{width: 32%;}
+    .contededor-caja-texto h2 {
+        font-size: 26px;
+
+    }
+    /*    FIN SLIDER 6 BANNERS*/
+    /*      FOOTER*/
+    .legal .columnaizquierda{
+        margin-left: 38px;
+    }
+    .acreditaciones{width: 826px;}
+    /*      FIN FOOTER*/
+}
+
+@media screen and (max-width:1150px){
+    /*    CABECERA*/
+
+    .bx-wrapper .bx-pager, .bx-wrapper .bx-controls-auto{
+        top: 72%;
+    }
+    /*      CONTENIDO*/
+    .datos{
+        top: inherit; 
+        margin-bottom: 0; 
+    }
+    .alumnos-realidad .videos {
+        width: 800px;
+    }
+    .alumnos-realidad .youtube-vide{
+        width: 379px;
+        height: 212px;
+    }
+    .banner-metodologias{background: none;}
+    .banner-metodologias ul li {
+        padding: 20px;
+        float: none;
+        width: 100%;
+        margin-top: 11px;
+        background: #dedede;
+    }
+    .banner-metodologias ul li:hover {background: #f2f2f2;}
+    .banner-metodologias h4{    margin-bottom: 0px;}
+    .banner-metodologias .boton-home{width: 54%;}
+    .metod-icons{margin-bottom: 4px;}
+    /*      contenido - INTERNACIONAL*/
+
+    .internacional ul{
+        width: 95%;
+        margin: 0 auto;
+    }
+    .internacional ul li, .internacional ul li:last-child{
+        width: 46%;
+        margin: 10px 1.5%;
+        font-size: 20px;
+    }
+    .texto-inter {
+        font-size: 13px;}
+
+    /*      contenido - FININTERNACIONAL*/
+
+    /*      FIN CONTENIDO*/
+}
+
+@media screen and (max-width:1070px){
+
+    /*      CABECERA*/
+    .datos-cabec{
+        overflow: hidden;
+        float: right;
+        border: 0px;
+        padding: 0px;
+        margin-top: 0px;
+        width: auto;
+
+    }
+    .contacto-cab{
+        overflow:visible;
+        width: auto;
+        margin: 0px;
+        float: none;
+
+    }
+    .buscad-header {
+        position: relative;
+        /*        overflow: hidden;*/
+        float: none;
+        clear: both;
+        padding-bottom: 20px;
+        margin-right: 0px;
+    }
+    .frases {
+        float: right;
+        width: 370px;
+        margin-top: 4px;
+        margin-bottom: 1px;
+    }
+    .frases p, .contacto-cab>p{display: none;}
+    .telefono{padding-left: 20px;text-align: right; float:right}
+    .telefono p {
+        font-size: 11px;
+        margin-bottom: 0px;
+    }
+    .telef {
+        font-size: 15px!important;
+        font-weight: 600;
+    }
+    .nograt {margin-right: 3px;}
+    .cabecera{height: auto;}
+
+    .resultados-dinamicos{top: 95px;    padding-right: 11px;}
+    .principal ul li{
+        margin-right: 4%;
+        font-size: 14px;
+    }
+    .secundaria ul{
+        width: auto;
+
+    }
+    .secundaria ul li{
+        margin-right: 9px;
+        font-size: 12px;
+    }
+    .secundaria h1, .secundaria div.h-uno {
+        font-size: 11px;
+        padding-right: 0px;
+        line-height: initial;
+        padding-top: 10px;
+    }
+    .cabecera{
+        margin-top: 35px;
+    }
+    .pop-contacto a{display: initial}
+    .pop-contacto.flota-cont a{display: block}
+    .pop-contacto.flota-cont .telefono{
+        padding-left: 0px;
+    }
+    .logos-cabecera{margin-top: 0px;}
+    .boton-lupa {
+        height: 40px;
+        top: -14px;
+    }
+    .buscad-header {
+        padding-bottom: 11px;
+    }
+    .cabecera {
+        margin-top: 30px;
+    }
+    /*      FIN CABECERA*/
+    /*      CONTENIDO*/
+    .listado-masters h2{
+        font-size: 30px;
+    }
+    .listado-masters h3{
+        margin-top: 29px;
+    }
+    .areas{
+        margin-top: 62px;
+    }
+    .listado-masters li {
+        margin-bottom: 16px;
+        font-size: 16px;
+    }
+    .formulario-home form {
+        width: 54%;
+    }
+    .formulario-home .calltoactionform {
+        width: 46%;
+        font-size: 34px;
+    }
+
+    /*      FIN CONTENIDO*/
+    /*      FOOTER*/
+    .acreditaciones{width: 830px;}
+    /*FIN FOOTER*/
+}
+@media screen and (max-width:986px){
+    /*    CABECERA*/
+    .principal ul li{
+        margin-right: 2.2%;
+    }
+    .titulo-rojo{
+        font-size: 25px;
+        width: 50%;
+    }
+    .titulo-apartado .tachado{
+        width: 25%;
+    }
+    .video .titulo-apartado{width:100%;}
+    /*    FIN CABECERA*/
+
+}
+@media screen and (max-width:971px){
+    .contededor-caja-texto h2 {
+        font-size: 24px;
+    }
+}
+@media screen and (max-width:917px){
+    /*    CABECERA*/
+    .buscador-resultados li{font-size: 12px;}
+
+    .curso-destacado .slogan{
+        display: none;
+    }
+    .curso-destacado >div {
+        height: 165px;
+    }
+    .curso-destacado .acreditacion{
+        margin-top: 1px;
+    }
+    .curso-destacado p{margin-top: 3px;}
+}
+
+@media screen and (max-width:890px){
+    /*    CABECERA*/
+    .principal ul li{
+        margin-right: 2%;
+        font-size: 13px;
+    }
+    .buscar{
+        width: 25px;
+    }
+    .secundaria ul li {
+        margin-right: 6px;
+        font-size: 11px;
+    }
+    .telef{
+        font-size: 18px;
+    }
+    .telefono{
+        font-size: 12px;
+        line-height: 19px;
+
+    }
+    /*    FIN CABECERA*/
+    /*    CONTENIDO*/
+    .ventajas{margin-top: 42px;padding: 0px;margin-bottom: 38px;}
+    .ventajas ul li p, .areas ul li p{
+        font-size: 13px;
+        /* top: 0; */
+    }
+    .ventajas ul li div{
+        background-size: 563px;
+        height:91px;
+        width:91px;
+    }
+    .areas ul li img{
+        height: 81px;
+        width:81px;
+    }
+    .ventajas .icr-titulacion{
+        background-position: -290px -3px;
+    }
+    .ventajas .icr-online{
+        background-position: -99px -2px;
+    }
+    .ventajas .icr-directo{
+        background-position: -195px -3px;
+    }
+    .ventajas .icr-tutorias{
+        background-position: -3px -3px;
+    }
+    .ventajas .icr-financiacion{
+        background-position: -386px -3px;
+    }
+    .ventajas .icr-docentes{background-position: -191px -191px;}
+    .ventajas .icr-mapa-europa{        background-position: -283px -191px;    }
+    .areas{padding: 14px 3px;}
+
+
+    .formulario{    width: 100%;}
+    .alumnos-realidad .videos {
+        width: 610px;
+    }
+    .alumnos-realidad .youtube-vide{
+        width: 284px;
+        height: 159px;
+    }
+    /*    FIN CONTENIDO*/
+    /*    FOOTER*/
+    .legal p {
+        font-size: 11px;
+        margin-bottom: 4px;
+    }
+    .acreditaciones{width: 666px;margin-bottom: 43px;}
+    /*    FIN FOOTER*/
+}
+
+/* ========= TABLET*/
+@media screen and (max-width: 818px){
+    /*    POPUP*/
+    .exit{
+        left: -23px;
+
+    }
+
+    /*    CABECERA*/
+
+    .caja-texto h2{font-size: 15px}
+    .caja-texto h2 span{font-size: 28px}
+    .bx-wrapper .bx-controls-direction a{
+        top: 50%;
+    }
+    .bx-wrapper .bx-pager, .bx-wrapper .bx-controls-auto{
+        top:-10px;
+    }
+    .resultados-dinamicos{
+        top: 61px;
+    }
+    .portada{margin-top: 60px }
+    /*  menu desplegable*/
+    header{position: absolute; top:0px;height: auto;}
+    .logos-cabecera{margin-top: 7px;}
+    .cabecera{
+        margin-top: 4px;
+        z-index: 0;
+        padding-bottom: 6px;
+        border-bottom: 1px solid #E6E6E6;
+        position: fixed;
+        z-index: 999999;
+        background: #ffffff;
+        top: 0px;
+        left: 0px;
+        margin-top: 0px;
+    }  
+    /*    .principal, .secundaria ul{height: 0px;overflow: hidden;margin: 0px;}*/
+    .principal ul li, .secundaria ul li{
+        font-weight: 300;
+        margin-right: 0%;
+    }
+    .principal ul li:hover, .secundaria ul li:hover{
+        text-decoration: none;
+        font-weight: 400;
+    }
+    .buscador-texto form{
+        width: 100%;
+        margin-bottom: 12px;
+    }
+    .buscador-texto form input{height: 36px; width: 100%;}
+    /*    .datos-cabec{display: none}*/
+    .datos-cabec{
+        position: relative;
+        left: -61px;
+        top: 14px;
+    }
+    .frases{display: none;}
+    .pop-contacto{
+        width:100%;
+        /*        top: 6px;
+                height: 41px;
+                width: 41px;
+                right: 59px;
+                background: url(../img/iconos/css-sprite-rrss-telef.png);
+                float: left;
+                margin-right: 4px;
+        
+                background-position: -275px 2px;
+                background-color: rgba(204, 0, 0, 0.88);*/
+    }
+    /*    .pop-contacto:before{content:""}*/
+    .cabecera .telef {
+        font-size: 23px!important;
+    }
+    .texto-contact{display: none;}
+    .datos-cabec .telefono.nograt{display: none;}
+    .telefono{     width: 100%;}
+    .buscador-resultados{height: 100%;position: absolute;top: 118px;left: 0px;z-index: 9999;}
+    .tabla .tablaarea, .tabla .tablacualificacion{ width:100%; height: auto;}
+    .tablaarea .boton, .tablacualificacion .boton{width: 139px;}
+    .menuses{
+        overflow: auto;
+        width: 100%;
+        position: fixed;
+        height: 0%;
+        left:0px;
+        top: -3px;
+    }
+    .menuses-desplegado{
+        height: 75%;
+    }
+    .buscador-resultados .tabla.tablaarea, .buscador-resultados .tabla.tablacualificacion{
+        width: 100%;
+        float: none;
+        border: 0px;
+        position: relative;
+    }
+    .buscador-resultados  .tablaresultado{height: 0px; overflow: hidden; border: 0px; margin: 0px;  padding: 0px;}
+    .menuses-desplegado .principal ul li,.menuses-desplegado .secundaria ul li{
+        float: none;
+        border-bottom: 1px solid #777777;
+        font-size: 16px;
+    }
+    .menuses-desplegado .secundaria ul{height: auto;     padding: 0 10px;width: 100% ;margin-left: 0px;}
+    .menuses-desplegado .secundaria ul :last-child{border:0px;}
+    .menuses-desplegado .secundaria ul li{
+        color: #ffffff;
+        line-height: 43px;
+        padding: 0px;
+        font-size: 16px;
+        float: none;
+    }
+    .campus-virtual{
+        color: #ffffff;
+        font-size: 20px;
+    }
+    .campus-virtual:after{
+        content: "Campus virtual";
+        display: inline-block;
+        font-size: 14px;
+        font-weight: 300;
+        margin-left: 10px;
+    }
+    .menuses-desplegado .principal{
+        margin-top: 61px!important;
+        z-index: 99999998;
+        background: #353535;
+        width: 100%;
+        padding: 0;
+        padding-top: 15px;
+        height: auto;
+        position: relative!important;
+    }
+    .menuses-desplegado .principal ul{height: 100%;position: relative;padding: 10px;}
+    .tablaresultado.resultante{
+        height: 100%!important;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        width: 100%;
+        background-color: #171717;
+        padding: 15px;
+    }
+
+    nav.secundaria{
+        position: relative;
+        background: #353535;
+        color: #ffffff;
+        width: 100%;
+    }
+    .secundaria h1, .secundaria div.h-uno {height: 0px; overflow: hidden; margin: 0px;padding: 0px; }
+    .logos-cabecera img{ height: 44px; width: 231px;}
+    .principal .buscad-header { 
+        display: block;
+        padding: 3px 14px;
+    }
+    .buscad-header input { 
+        position: relative;
+        margin: 0 auto;
+        width: 86%;
+        float: left;
+        padding: 20px 16px;
+        font-size: 15px;
+        margin-right: 2%;
+        font-weight: 400;
+    }
+
+
+
+    .mov-menu {
+        height: 44px;
+        width: 44px;
+        color: #353535;
+        text-align: center;
+        position: absolute;
+        top: 4px;
+        line-height: 29px;
+        left: 100%;
+        margin-left: -53px;
+        z-index: 9055;
+        display: inline-block;
+        font-size: 10px;
+        font-weight: 300;
+        cursor: pointer;
+    }
+    .mov-menu .lin {
+        width: 71%;
+        margin: 0 auto 5px;
+        height: 3px;
+        background: #353535;
+        position: relative;
+        top: 17%;
+    }
+    #aviso-cookies {
+        padding: 10px;
+        font-size: 10px;
+    }
+    .tablaresultado{overflow: hidden;}
+    .logo-negativo{
+        display: none;
+    }
+    .banner-metodologias{
+        background: none;
+        padding: 0px;
+    }
+    .banner-metodologias ul li {
+        padding: 10px 20px;
+        width: 46%;
+        float: none;
+        width: 100%;
+        margin:0 auto;
+        margin-bottom: 30px;
+        background: #f2f2f2;
+    }
+    .banner-metodologias .boton-home {
+        width: 100%;
+    }
+    .cristal{
+        border-color: #FFFFFF;
+    }
+    .mango{
+        background: #ffffff; 
+    }
+    .localizacion{background: none;     height: 44px;    width: 100%;}
+    .localizacion:before{content: "Contacto"}
+
+
+
+
+
+
+    /*    FIN CABECERA*/
+
+    /*    CONTENIDO*/
+
+    .destacados{
+        background: none;
+        padding: 0px;
+    }
+    .curso-destacado{
+        width: 47%;
+        margin: 6px 1%;
+        background: #e8e8e8;
+    }
+    .curso-destacado >div {
+        height: 123px;
+    }
+    .contenido-home{padding-top: 0px;}
+
+    .text-presen{
+        font-size: 15px;
+    }
+    .formulario-home .calltoactionform{height: 0px; overflow: hidden; width: 0px; padding: 0px; margin: 0px;}
+    .formulario-home form,     .formulario-home .acelerador{width: 100%; float: none;}
+    .formulario-home .calltoactionform {
+        display: none;
+    }
+    .lista-oferta-formativa div{ margin-top: 10px; color: #ffffff;}
+    .lista-oferta-formativa li, .lista-oferta-formativa li:last-child{
+        float: none;
+        margin: 0 auto;
+        width: 86%;
+        margin-bottom: 17px;
+        background: #353535;
+    }
+    .lista-oferta-formativa h2{
+        color: #ffffff;
+        border: 0px;
+        margin-bottom: 0px;
+    }
+    .lista-oferta-formativa li:hover{background: #353535;}
+    .lista-oferta-formativa h4 {
+        text-align: center;
+        font-weight: 300;
+        font-size: 24px;
+        color: #3C3C3C;
+        margin-bottom: 0;
+        border-bottom: 0;
+        padding-bottom: 0;
+        color: #ffffff;
+    }
+
+    /*    FIN CONTENIDO*/
+    /*    FOOTER*/
+    .legal .columnaizquierda {
+        margin-left: 2%;
+        width: 25%;
+    }
+    .legal .columna-datos {
+        width: 43%;
+    }
+    #aviso-cookies {
+        margin-bottom: 63px;
+    }
+    .mv-footer {
+        display: block;
+        position: fixed;
+        bottom: 0;
+        height: 63px;
+        z-index: 96;
+        top: 100%;
+        margin-top: -63px;
+        padding: 5px 5px 0px;
+        width: 100%;
+        background: #993237;
+        opacity: .9;
+        overflow: hidden;
+        color: white;
+        font-size: 15px;
+        text-align: center;
+    }
+    .mv-footer a{
+        color: #ffffff;
+        text-decoration: none;
+    }
+    .mv-footer-dcha {
+        width: 34%;
+        float: left;
+        /*        border-right: 1px solid #ffffff;*/
+        padding: 0px 10px;
+        cursor: pointer;
+    }
+    .mv-footer-izq {
+        width: 25%;
+        float: left;
+        margin: 0 auto;
+        padding: 0px 10px;
+        cursor: pointer;
+    }
+    .mv-footer img {
+        height: 28px;
+    }
+    .mv-footer p {
+        font-size: 11px;
+        margin-top: 0px;
+    }
+    /*    .icono-inf{
+            -webkit-border-radius: 50%;
+            -moz-border-radius: 50%;
+            border-radius: 50%;
+            border: 2px solid #ffffff;
+            height: 28px;
+            width: 28px;
+            text-align: center;
+            margin: 0 auto;
+        }*/
+    /*    .icono-inf p{font-size: 20px; line-height: 17px;}*/
+    .icono-inf{
+        margin: 0 auto;
+        height: 43px;
+        width: 32px;
+        background: url(../img/iconos/css-sprite-rrss-telef.png);
+        cursor: pointer;
+        background-position: -759px -2px;
+    }
+    .icono-telef{
+        margin: 0 auto;
+        height: 43px;
+        width: 48px;
+        background: url(../img/iconos/css-sprite-rrss-telef.png);
+        cursor: pointer;
+        background-position: -709px -2px;
+
+    }
+    .nolegal .columnaderecha{display: none;}
+    .arrow{left: 8px; bottom: 73px;}
+    /*    FIN FOOTER*/
+
+}
+@media screen and (max-width:804px){
+    /*    CONTENIDO*/
+    .areas p {
+        font-size: 14px;
+    }
+
+    .blogs{
+        width: 450px;
+    }
+    .blogs li{
+        margin: 14px 21px;
+    }
+    .formulario h3{
+        padding: 38px 20px;
+    }
+    .agencia_colocacion {
+        height: 76px;
+        margin-top: 18px;
+    }
+    /*    FIN CONTENIDO*/
+
+    /*    COLOMBIA*/
+    .colombia .titulaciones-col {
+        display: block;
+        vertical-align: top;
+        width: 100%;
+        margin-top: 45px;
+    } 
+
+}
+
+
+@media screen and (max-width:780px){
+    .contededor-caja-texto>div{
+        padding: 10px;
+
+    }
+    .contededor-caja-texto{
+        height: inherit;
+        height: initial;
+    }
+
+    .contededor-caja-texto h2 {
+        font-size: 21px;
+    }
+    .contededor-caja-texto a{padding: 10px;}
+}
+@media screen and (max-width:770px){
+    /*    CONTENIDO*/
+
+    .curso-destacado p{
+        font-size: 11px;
+    }
+    .contacto-home .telefono{
+        padding: 9px;
+        font-size: 13px;
+    }
+    .contacto-home .telef{
+        font-size: 16px;
+        margin-bottom: 2px;
+    }
+    /*    FIN CONTENIDO*/
+}
+@media screen and (max-width:700px){
+    .caja-texto h2{font-size: 19px;}
+    .caja-texto h2 span{font-size: 22px;}
+    .caja-texto{
+        width: 100%;
+        margin: 0 auto;
+        position: relative;
+        background: #353535;
+        padding: 5px;
+        width: 100%;
+        margin-top: 15px;
+        max-width: none;
+    }
+    /*    GENERAL*/
+    .titulo-rojo{
+        width: 70%;
+        font-size: 23px;
+    }
+    /*    FIN GENERAL*/
+    /*    CONTENIDO*/
+    .ventajas ul li{
+        padding: 0 10px;
+    }
+    .areas p {
+        font-size: 13px;
+    }
+    .areas{    
+        margin-top: 36px;
+        margin-bottom: 0;
+    }
+    .ventajas{
+        margin-top: 42px;
+        margin-bottom: 38px;
+    }
+    .destacados{
+        padding: 0 8%;
+    }
+    .curso-destacado{
+        float: none;
+        width: 100%;
+    }
+
+    .curso-destacado .masterennombre{
+        font-size: 19px;
+    }
+    .curso-destacado .masteren {
+        font-size: 12px;
+    }
+    .curso-destacado .acreditacion{
+        margin-top: 3px;
+    }
+    .acreditacion{
+        float: right;
+    }
+    .curso-destacado >div {
+        height: auto;
+    }
+    .datos{height: auto!important}
+    .buscador form input {
+        width: 404px;
+    }
+    .video{
+        padding-top: 15px;
+    }
+    .video .titulo-apartado {
+        height: 0px; overflow: hidden; margin: 0px; padding: 0px;
+    }
+    .youtube-corporativo {
+        width: 370px;
+        height: 208px;
+    }
+    .titulo-apartado .tachado{
+        width: 15%;
+    }
+    .acreditaciones-rankings .lista-acreditacion{width: 69%;}
+
+    /*    FIN CONTENIDO*/
+    /*    FOOTER*/
+    .legal p {
+        font-size: 10px;
+        margin-bottom: 3px;
+    }
+    .tit-legal{    font-size: 16px;}
+
+    .legal .columna-datos {
+        width: 43%;
+    }
+    .aviso-legal{
+        width: 100%;
+        padding-left: 10px;
+    }
+    .aviso-legal li {
+        margin-left: 0px;
+        margin-right: 20px;
+    }
+    .acreditaciones{
+        width: 594px;
+    }
+    .footer-acreditaciones .logo-acred{
+        width: 99px;
+        height: 43px;
+        background-size: 600px;
+    }
+    .acreditaciones div.c {
+        background-position: -99px 0px;
+    }
+    .acreditaciones div.efqm {
+        background-position: -198px 0px;
+    }
+    .acreditaciones div.oca {
+        background-position: -297px 0px;
+    }
+    .acreditaciones div.aegef {
+        background-position: -396px 0px;
+    }
+    .acreditaciones div.charter {
+        background-position: -495px 0px;
+    }
+    .acreditaciones div.aacsb {
+        background-position: 0 -43px;
+    }
+    .acreditaciones div.pactomundial {
+        background-position: -99px -43px;
+    }
+    .acreditaciones div.aeen {
+        background-position: -198px -43px;
+    }
+    .acreditaciones div.cambridge {
+        background-position: -297px -43px;
+    }
+    .acreditaciones div.amacfor {
+        background-position: -396px -43px;
+    }
+    .acreditaciones div.cecap {
+        background-position: -495px -43px;
+    }
+    .acreditaciones div.madrid {
+        background-position: 0px -86px;
+    }
+    .acreditaciones div.tuv {
+        background-position: -99px -86px;
+    }
+    .acreditaciones div.asociacion-marketing {
+        background-position: -198px -86px;
+    }
+    .acreditaciones div.cel {
+        background-position: -297px -86px;
+    }
+    .acreditaciones div.eeej {
+        background-position: -396px -86px;
+    }
+    .acreditaciones div.ati {
+        background-position: -495px -86px;
+    }
+    .acreditaciones div.aedipe {
+        background-position: 0px -129px;
+    }
+    .acreditaciones div.unesco {
+        background-position: -99px -129px;
+    }
+    .acreditaciones div.agatha {
+        background-position: -198px -129px;
+    }
+    .acreditaciones div.colegioabogados {
+        background-position: -297px -129px;
+    }
+    .acreditaciones div.deloitte {
+        background-position: -396px -129px;
+    }
+    .acreditaciones div.aepsad {
+        background-position: -495px -129px;
+    }
+    .acreditaciones div.fenicia {
+        background-position: 0px -172px;
+    }
+    .acreditaciones div.club-excelencia {
+        background-position: -99px -172px;
+    }
+    .acreditaciones div.unwto {
+        background-position: -297px -172px;
+    }
+    .acreditaciones div.modaespana {
+        background-position: -396px -172px;
+    }
+    .acreditaciones div.ale{
+        background-position: -500px -172px;
+    }
+    .acreditaciones div.cehat{
+        background-position: -204px -172px;
+    }
+    .acreditaciones div.ith{
+        background-position: -303px -221px;;
+    }
+    .acreditaciones div.ela {
+        background-position:  -396px -221px;
+    }
+    .acreditaciones div.amba {
+        background-position: -495px -221px;
+    }
+    .acreditaciones div.mundoposgrado {
+        background-position:  0px -266px;
+    }
+    .acreditaciones div.prever {
+        background-position:  -99px -266px;
+    }
+    .acreditaciones div.rank-wanabis {
+        background-position:  -204px -266px;
+    }
+    .acreditaciones div.portalMBA{
+        background-position:  -298px -266px;
+    }
+    /*    FIN FOOTER*/
+}
+@media screen and (max-width:670px){
+    .contededor-caja-texto h2 {
+        font-size: 21px;
+    }
+}
+@media screen and (max-width:650px){
+    /*    CABECERA*/
+    /*    .caja-texto {width: 100%;margin:0 auto;}
+        .caja-texto h2{text-align: center;}
+        .caja-texto h2 span{text-align: center;}*/
+    /*    CONTENIDO*/
+    .areas ul li {
+        width: 33%;
+        height: 150px;
+    }
+    .areas ul .segunda-linea {margin-top: 19px;}
+    .areas ul .abajo-ancho{
+        width: 48%;
+        margin-top: 15px;
+    }
+    .areas{
+        width: 100%;
+    }
+    .eventos{
+        float: none;
+        width: 90%;
+        margin: 38px auto;
+        height: auto;
+
+    }
+    .titulo-rojo, .listado-masters h2{font-size: 25px;}
+    .listado-masters h3{
+        font-size: 23px;
+        margin-top: 13px;
+    }
+    .alumnos-realidad .videos {
+        width: 302px;
+    }
+
+    .titulo-rojo {
+        width: 78%!important;
+    }
+    .tachado {
+        width: 11%!important;
+    }
+    /*    FIN CONTENIDO*/
+
+    /*    FOOTER*/
+    .aviso-legal{font-size: 11px;     padding-left: 0px;}
+    .aviso-legal li{margin-bottom: 15px;     margin-right: 16px;}
+    .legal .columnaizquierda {
+        float: none;
+        margin-left: 0;
+        overflow: hidden;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .legal .columna-datos{
+        float: none;
+        width: auto;
+        margin: 0 auto;
+        margin-bottom: 10px;
+    }
+    .legal .columnaizquierda p{
+        float: left;
+        margin-right: 17px;
+        margin-bottom: 0px;
+    }
+    .legal .columna-datos p{
+        float: none;
+        margin-bottom: 6px;
+    }
+    .acreditaciones{
+        width: 498px;
+    }
+    .imf-footer p{
+        font-size: 13px;
+    }
+    /*    FIN FOOTER*/
+
+}
+
+/* ========== MOVIL*/
+@media screen and (max-width: 600px){
+
+    /*    FUERA SLIDER*/
+    /*    PORTADA*/
+
+    .bx-controls-direction a{display: none;}
+    .opinionesde-alumnos  .bx-controls-direction a{display: block;}
+    .bx-wrapper{width: 82%;}
+    .opinionesde-alumnos .bx-wrapper{width: 100%;}
+    /*    .bxslider, .bx-wrapper{display: none;}*/
+    .siverslider{display: block;}
+    .siverslider .bxslider,   .siverslider .bx-wrapper{display: block!important}
+    .caja-slider{overflow: hidden; padding: 0px!important;margin:0px!important; height: 100%; width: 100%;}
+    .elemento-slider{
+        width: auto;
+        height: 168px;
+        right: 142px;
+        position: relative;
+    }
+    .opinionesde-alumnos  .elemento-slider{
+        width: auto;
+        height: 168px;
+        right: 0px;
+        position: relative;
+    }
+    .img-slider-mv{
+        background: url('../img/slider/masters-semipresenciales-imf.jpg') no-repeat top;
+        background-size: cover;
+        right: 0px;
+    }
+    .nodesktop{display: block;}
+    .caja-texto{display: block;}
+    .nomovil{display: none;}
+    .titulo-apartado{   
+        margin-top: 37px;
+    }
+    .video.home iframe{
+        width: 350px;
+        height: 197px;
+    }
+
+    .contededor-caja-texto{background: #ffffff;}
+    .contededor-caja-texto>div>div{
+        width: 100%;
+        height: inherit;
+    }
+    .bx-clone{display: none;}
+    .bx-clone{width: 100%}
+
+    /*    .portada{    height: 355px; background: #353535; }*/
+    /*    POPUP*/
+    .negro .popup-video {
+        width: 95%;
+        position: relative;
+        left: 0;
+        margin-left: 0;
+        margin: 0 auto;
+        padding: 0px;
+    }
+
+    .negro .popup-video iframe{
+        width: 100%;
+
+    }
+    /*    .pop-contacto{display: none;}*/
+    /*    .bx-wrapper .bx-controls-direction a{display: none;}*/
+
+    /*    CONTENIDO*/
+
+    .titulo-destacados{height: 0px!important; padding: 0px; overflow: hidden; height: 0px; border:0px;}
+    .listado-masters{margin-top: 0px;}
+
+    .listado-masters h2 {
+        font-size: 24px;
+    }
+    .contacto-home .telefono{
+        width: 48%;
+        height: auto;
+    }
+    .contacto-home .whatsapp{ width: 100%; }
+    .lista-oferta-formativa h4{    font-size: 21px;}
+    .lista-oferta-formativa li {    padding: 12px;}
+    .leermas{display: block;}
+    #attr-leermas-uno{display: none;}
+    .listado-masters{padding-bottom: 0px;}
+
+    .internacional{background: none;margin: 0 auto;}
+    .internacional ul{padding: 0px;     width: 71%;}
+    .internacional ul li, .internacional ul li:last-child {
+        width: 100%;
+        margin: 5px auto;
+        font-size: 18px;
+    }
+    .texto-inter{display: none;}
+    .titul{
+        padding: 7px;
+        font-size: 15px;
+
+    }
+    .crm-titular, .sem_tit, p.title_new{font-size: 14px;}
+    .eventos p, .sem_fecha, .sem_txt{font-size: 13px;}
+    /*    FIN CONTENIDO*/
+    /*    FOOTER*/
+    .legal .columnaizquierda:not(.columna-datos){
+        height: 0px;
+        padding: 0px; 
+        margin: 0px;
+        overflow: hidden;
+    }
+    .aviso-legal {padding-left: 10px; margin-top: 0px;}
+    .aviso-legal li{font-size: 11px;}
+    .legal .columna-datos{border: 0px;}
+    .legal{padding: 0px; padding-bottom: 66px;}
+
+    .zopim{
+        margin: 0px!important;
+        padding: 0px!important;
+        border: 0px!important;
+        overflow: hidden!important;
+        position: fixed!important;
+        z-index: 16000001!important;
+        height: 46px!important;
+        bottom: 0px!important;
+        background: transparent!important;
+    }
+    /*    FIN FOOTER*/
+}
+
+@media screen and (max-width:550px){
+
+    /*    CONTENIDO*/
+
+    .ventajas, .areas{width: 100%;padding: 0px;}
+    .ventajas ul li, .areas ul li{
+        width: 33%;
+        margin: 0px;
+        height: 158px;
+    }
+    .areas ul li{height: 152px;padding: 0 10px;}
+    .ventajas ul .segunda-linea { width: 50%; margin-top: 19px;}
+    .ventajas ul li div, .areas ul li img{margin: 0 auto;}
+    .buscador {
+        height: 151px;background-position: left;}
+    .buscador form input {
+        width: 90%;
+    }
+    /*    FIN CONTENIDO*/
+    /*    FOOTER*/
+    .imf-footer{margin-bottom: 30px;}
+    /*    FIN FOOTER*/
+}
+
+
+@media screen and (max-width:530px){
+    /*    CABECERA*/
+	.cabecera .telef {
+		font-size:20px !important;
+	}
+    /*    FIN CABECERA*/
+
+    /*    FOOTER*/
+    .acreditaciones{
+        width: 399px;
+    }  
+    .telef {
+        font-size: 17px!important;
+    }
+    .imf-footer{margin-bottom: 30px;}
+    /*    FIN FOOTER*/
+}
+
+@media screen and (max-width:500px){
+    /*    CABECERA*/
+
+    .colaboradora{height: 0px; overflow: hidden; padding: 0px; margin: 0px;}
+    .datos-cabec {
+        left: -49px;
+        top: 8px;
+    }
+	.cabecera .telef {
+		font-size:18px !important;
+	}
+    /*    CONTENIDO*/
+    .btn{
+        font-size: 26px;
+    }
+    .formulario .contenido-formulario{
+        padding: 0 2px;
+    }
+    .listado-masters h2 {
+        font-size: 22px;
+    }
+    .listado-masters h3 {
+        margin-top: 16px;
+        font-size: 22px;
+    }
+    .listado-masters .m-oficiales, .listado-masters .grados, .listado-masters .m-propios{width: 95%}
+
+    .titulo-rojo{
+        font-size: 22px!important;
+        width: 80%!important;
+    }
+    .titulo-apartado .tachado{
+        width: 10%!important;
+    }
+    .agencia_colocacion {
+        height: 38px;
+        margin-top: 8px;
+    }
+    /*    FIN CONTENIDO*/
+
+}
+
+@media screen and (max-width:470px){
+    /*    CABECERA*/
+	.cabecera .telef {
+		font-size:15px !important;
+	}
+    /*    FIN CABECERA*/
+    /*    CONTENIDO*/
+    .youtube-corporativo {
+        width: 270px;
+        height: 154px;
+    }
+    .video .titulo-rojo {
+        font-size: 0px; overflow: hidden; margin: 0px; border: 0px;
+    }
+    .video {
+        padding: 25px;
+    }
+    .listado-masters .listado li{list-style: none; font-size: 14px;}
+    .blogs{
+        width: 352px;
+    }
+    .blogs li{
+        margin: 8px 9px;
+    }
+    .blogs li p{font-size: 12px;}
+    .acreditaciones-rankings .lista-acreditacion{display: block!important; width: 100%!important;clear: both; padding-top: 7px;}
+    /*    FIN CONTENIDO*/
+    /*    FOOTER*/
+    .imf-footer{
+        margin-top: 43px;
+    }
+    form a{
+        width: 70%;
+    }
+    /*    FIN FOOTER*/
+
+}
+@media screen and (max-width:450px){
+    .video.home {
+        padding: 0;
+        background: none;
+    }
+    .video.home iframe {
+        height: 159px;
+        width: 285px;
+    }
+    .telefono .bandera{display: none;}
+}
+@media screen and (max-width:420px){
+    .datos-cabec{display: none;}
+    .caja-texto h2{font-size: 12px;}
+    .caja-texto h2 span{font-size: 21px;}
+    /*    FOOTER*/
+    .acreditaciones{
+        width: 298px;
+    }                     
+    /*    FIN FOOTER*/
+}
+@media screen and (max-width:380px){
+    /*   GENERAL*/
+    .titulo-rojo{font-size: 19px!important; color: #993237!important;}
+    .lista-oferta-formativa h4 {
+        font-size: 20px;
+    }
+    .text-presen, .lista-oferta-formativa p, .banner-metodologias p, .acreditaciones p, .alumnos-realidad p {
+        font-size: 13px;
+    }
+    .ventajas ul li p, .areas ul li p {
+        font-size: 12px;
+    }
+    /*   FIN GENERAL*/
+
+    /*   CONTENIDO*/
+    .listado-masters h2{font-size: 19px;}
+    .blogs{
+        width: 253px;
+    }
+    .blogs li{
+        margin: 5px 6px;
+    }
+    .ventajas ul li div {
+        background-size: 520px;
+        height: 82px;
+        width: 82px;
+    }
+
+    .ventajas .icr-titulacion {
+        background-position: -269px -3px;
+    }
+    .ventajas .icr-online {
+        background-position: -92px -3px;
+    }
+    .ventajas .icr-directo {
+        background-position: -181px -3px;
+    }
+    .ventajas .icr-financiacion {
+        background-position: -358px -3px;
+    }
+    .ventajas .icr-docentes {
+        background-position:  -177px -178px;
+    }
+    .ventajas .icr-mapa-europa{
+        background-position: -262px -178px;
+    }
+
+    /*   FIN CONTENIDO*/
+    /*   FOOTER*/
+    .legal{margin-top: 2px;}
+    /*   FOOTER*/
+}
+@media screen and (max-width:350px){
+    .banner-metodologias ul li{padding: 0px; background: none;}
+    .banner-metodologias h4{
+        padding-bottom: 0px;
+        border-bottom: 0px; 
+        border-top: 1px solid #d3d3d3;
+        padding-top: 5px;
+    }
+
+
+}
