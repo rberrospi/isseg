@@ -315,70 +315,33 @@
     <div class="centrado"><strong>Infórmate acerca de nuestras becas antes del <span style='color:#122a82'>15/02/2017</span></strong></div>
     <div class="centrado"></div>
     <form action="enviar.php" method="post" id="">
-        <input type="hidden" name="validar_hashcash_principal" value=""/>
-        <input type="hidden" name="contactar_curso" value="1"/>
-        <input type="hidden" name="contactar_empresa" value=""/>
-        <input type="hidden" name="o" value=""/>
-        <input type="hidden" name="get_o" value=""/>
-        <input type="hidden" name="volver" value="home"/>
-        <input type="hidden" name="sdi_tema" value=""/>
-        <input type="hidden" name="nombrecursotema" value=""/>
         <div class="form-horiz-boxes">
             <div class="campo-nombre  form-horiz-izq">
-                <div class="ico-form nombre"></div>
                 <div class="campo">
-                    <label for="nombre"></label>
                     <input name="nombre" type="text" placeholder="Nombre *" id="nombre" value=""/>
                 </div>
             </div>
             <div class="campo-apellidos form-horiz-dch">
-                <div class="ico-form apellidos"></div>
                 <div class="campo ">
-                    <label for="apellidos"></label>
                     <input name="apellidos" type="text" placeholder="Apellidos *" id="apellidos" value=""/>
                 </div>
             </div>
             <div class="campo-emial form-horiz-izq">
-                <div class="ico-form email"></div>
                 <div class="campo  ">
-                    <label for="email"></label>
                     <input name="email" type="text" placeholder="Email *" id="email" value=""/>
                 </div>
             </div>
             <div class="campo-telefono form-horiz-dch">
-                <div class="ico-form telefono"></div>
                 <div class="campo ">
-                    <label for="telefono"></label>
                     <input name="telefono" type="text" placeholder="Teléfono (con prefijo) *" id="telefono" value=""/>
                 </div>
             </div>
             <div class="campo-pais form-horiz-izq">
-                <div class="ico-form pais"></div>
                 <div class="campo ">
-                    <label for="id_provincia"></label>
                     <select name="id_provincia" id="id_provincia" class="dato">
                         <option value="0">Provincia *</option>
                         <option data-nombre-provincia="Provincia" value="">Lima</option>
-                        <option data-nombre-provincia="" value="">Ancon</option>
-                        <option data-nombre-provincia="" value="">Ate</option>
-                        <option data-nombre-provincia="" value=""></option>
-                        <option data-nombre-provincia="" value=""></option>
-                        <option data-nombre-provincia="" value=""></option>
-                        <option data-nombre-provincia="" value=""></option>
-                        <option data-nombre-provincia="" value=""></option>
-                        <option data-nombre-provincia="" value=""></option>
-                        <option data-nombre-provincia="" value=""></option>
-                        <option data-nombre-provincia="" value=""></option>
-                        <option data-nombre-provincia="" value=""></option>
-                        <option data-nombre-provincia="" value=""></option>
-                        <option data-nombre-provincia="" value=""></option>
-                        <option data-nombre-provincia="" value=""></option>
-                        <option data-nombre-provincia="" value=""></option>
-                        <option data-nombre-provincia="" value=""></option>
-                        <option data-nombre-provincia="" value=""></option>
-                        <option data-nombre-provincia="" value=""></option>
-                        <option data-nombre-provincia="" value=""></option>
-                        <option data-nombre-provincia="" value=""></option>
+                        <option data-nombre-provincia="" value="">Provincia</option>
                     </select>
                 </div>
             </div>
@@ -396,9 +359,7 @@
             </div>
             <div class="campo-curso form-horiz-dch ">
                 <div class=" form-horiz-t-curso form-horiz-izq"></div>
-                <div class="ico-form curso"></div>
                 <div class="campo ">
-                    <label for="id_curso_imf"></label>
                     <select name="id_curso_imf" id="id_curso_imf" class="dato">
                         <option value="0">Selecciona tu curso *</option>
                         <optgroup label="Programa de capacitación continua">
@@ -409,13 +370,7 @@
                             <option value="">Ergonomía Basica</option>
                             <option value="">Gestión del Estrés laboral</option>
                             <option value="">Espacios confinados</option>
-                            <option value="">Trabajos en altura</option>
-                            <option value="">Utilizacion de equipos de protección Individual (Epi's)</option>
-                            <option value="">Señalizacion y rotulación</option>
-                            <option value="">Bloqueo y etiquetado</option>
-                            <option value="">Manejo de grúas, montacargas y maquinaria pesada</option>
-                            <option value="">Manejo y transporte de materiales peligrosos</option>
-                            <option value="">Fundamentos de la Seguridad Industrial y Salud Ocupacional</option>           
+                            <option value="">Trabajos en altura</option>       
                         </optgroup>
                         <optgroup label="Programa de Seguridad y Salud en el trabajo">
                             <option value="">Definición y elavoración de la politica de SST</option>
@@ -437,9 +392,7 @@
                 </div>
                 <div class="campo-empresa form-horiz-dch">
                     <div id="div_empresa" style="display:none;">
-                        <div class="ico-form empresa"></div>
                         <div class="campo  form-h-empresa">
-                            <label for="empresa"></label>
                             <input name="empresa" type="text" id="empresa" placeholder="Empresa *" value=""/>
                         </div>
                     </div>
@@ -452,7 +405,7 @@
             </div>
         </div>
         <div class="form-hoirz-boton">
-            <a class="enviar" href="javascript: dataLayer.push({'category':'Interaccion','action':'Formulario','label':'codigo/codigo.php','event':'evento'}); validar_contactar_principal_home();" title="Enviar">Enviar</a>
+            <a class="enviar" title="Enviar">Enviar</a>
         </div>
     </form> </div>
 </div>
