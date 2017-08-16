@@ -405,7 +405,7 @@
                 <p>He leído y acepto las <a href="javascript:mostrar_popup('lopd.html');" title="Condiciones" rel="nofollow">condiciones</a> <span class="check-condi"><input class="checkbox" name="condiciones" id="condiciones" type="checkbox" checked="checked" value="1"/><label for="condiciones"></label></span></p>
             </div>
         </div>
-        <div class="form-hoirz-boton">
+        <div class="">
             <!--a class="enviar" title="Enviar">Enviar</a-->
             <input class="boton" type="submit" name="button" id="button" value="Enviar consulta">
         </div>
