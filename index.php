@@ -406,7 +406,6 @@
             </div>
         </div>
         <div class="">
-            <!--a class="enviar" title="Enviar">Enviar</a-->
             <input class="boton" type="submit" name="button" id="button" value="Enviar consulta">
         </div>
     </form>
