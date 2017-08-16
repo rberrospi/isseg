@@ -406,7 +406,8 @@
             </div>
         </div>
         <div class="form-hoirz-boton">
-            <a class="enviar" title="Enviar">Enviar</a>
+            <!--a class="enviar" title="Enviar">Enviar</a-->
+            <input class="boton" type="submit" name="button" id="button" value="Enviar consulta">
         </div>
     </form>
     </div>
