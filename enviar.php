@@ -7,8 +7,8 @@ $id_provincia = $_POST['id_provincia'];
 $id_curso_imf = $_POST['id_curso_imf'];
 
 if(!$nombre == '' && !$apellidos == '' && !$email == '' && !$telefono == '' ){
-    $correo_admin = "cursos@institutodeseguridad.edu.pe";
-    $correo_web = "cursos@institutodeseguridad.edu.pe";
+    $correo_admin = "rberrospi@institutodeseguridad.edu.pe";
+    $correo_web = "rberrospi@institutodeseguridad.edu.pe";
     $titulo = 'Solicitud de: '.$nombre;
     $mensaje = '
     <table width="230px" border"0" cellspacing="0">
