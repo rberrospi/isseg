@@ -314,8 +314,7 @@
 
     <div class="centrado"><strong>Infórmate acerca de nuestras becas antes del <span style='color:#122a82'>15/02/2017</span></strong></div>
     <div class="centrado"></div>
-    <form action="enviar.php" method="post" id="">
-        
+    <form action="final.php" method="POST">       
         <div class="form-horiz-boxes">
             <div class="campo-nombre  form-horiz-izq">
                 <div class="campo">
@@ -327,7 +326,7 @@
                     <input name="apellidos" type="text" placeholder="Apellidos *" id="apellidos" value=""/>
                 </div>
             </div>
-            <div class="campo-emial form-horiz-izq">
+            <div class="campo-email form-horiz-izq">
                 <div class="campo  ">
                     <input name="email" type="text" placeholder="Email *" id="email" value=""/>
                 </div>
@@ -341,48 +340,35 @@
                 <div class="campo ">
                     <select name="id_provincia" id="id_provincia" class="dato">
                         <option value="0">Provincia *</option>
-                        <option data-nombre-provincia="Provincia" value="">Lima</option>
-                        <option data-nombre-provincia="" value="">Provincia</option>
+                        <option value="Lima">Lima</option>
+                        <option value="Provincia">Provincia</option>
                     </select>
                 </div>
             </div>
-            <div class="campo-provincia form-horiz-dch">
-                <input type="hidden" value=""/>
-                <div id="div_provincia" style="display:none;">
-                    <div class="ico-form provincia"></div>
-                    <div class="campo ">
-                        <label for="id_provincia"></label>
-                        <select name="id_provincia" id="id_provincia" class="dato">
-                            <option value="0">[Provincia *]</option>
-                        </select>
-                    </div>
-                </div>
-            </div>
             <div class="campo-curso form-horiz-dch ">
-                <div class=" form-horiz-t-curso form-horiz-izq"></div>
                 <div class="campo ">
-                    <select name="id_curso_imf" id="id_curso_imf" class="dato">
+                    <select name="id_curso" id="id_curso" class="dato">
                         <option value="0">Selecciona tu curso *</option>
                         <optgroup label="Programa de capacitación continua">
-                            <option value="">Seguridad y Salud en el Trabajo</option>
-                            <option value="">Induccion de Seguridad y Salud en Almacenes</option>
-                            <option value="">Primeros Auxilios</option>
-                            <option value="">Seguridad contra Incendios</option>
-                            <option value="">Ergonomía Basica</option>
-                            <option value="">Gestión del Estrés laboral</option>
-                            <option value="">Espacios confinados</option>
-                            <option value="">Trabajos en altura</option>       
+                            <option value="Seguridad y Salud en el Trabajo">Seguridad y Salud en el Trabajo</option>
+                            <option value="Induccion de Seguridad y Salud en Almacenes">Induccion de Seguridad y Salud en Almacenes</option>
+                            <option value="Primeros Auxilios">Primeros Auxilios</option>
+                            <option value="Seguridad contra Incendios">Seguridad contra Incendios</option>
+                            <option value="Ergonomía Basica">Ergonomía Basica</option>
+                            <option value="Gestión del Estrés laboral">Gestión del Estrés laboral</option>
+                            <option value="Espacios confinados">Espacios confinados</option>
+                            <option value="Trabajos en altura">Trabajos en altura</option>       
                         </optgroup>
                         <optgroup label="Programa de Seguridad y Salud en el trabajo">
-                            <option value="">Definición y elavoración de la politica de SST</option>
-                            <option value="">Asesoría para la elección del Comite de SST</option>
-                            <option value="">Elaboración de la matriz de requisitos legales</option>
-                            <option value="">Elaboración de la matriz IPER por puesto de trabajo</option>
-                            <option value="">Elaboración del mapa de riesgo</option>
-                            <option value="">Elaboración del plan anual de SST</option>
-                            <option value="">Elaboración del programa anual de capacitaciones de SST</option>
-                            <option value="">Elaboración de los 8 registros obligatorios</option>
-                            <option value="">Elaboración de la cartilla de análisis de riesgos por puesto de trabajo</option>
+                            <option value="Definición y elavoración de la politica de SST">Definición y elavoración de la politica de SST</option>
+                            <option value="Asesoría para la elección del Comite de SST">Asesoría para la elección del Comite de SST</option>
+                            <option value="Elaboración de la matriz de requisitos legales">Elaboración de la matriz de requisitos legales</option>
+                            <option value="Elaboración de la matriz IPER por puesto de trabajo">Elaboración de la matriz IPER por puesto de trabajo</option>
+                            <option value="Elaboración del mapa de riesgo">Elaboración del mapa de riesgo</option>
+                            <option value="Elaboración del plan anual de SST">Elaboración del plan anual de SST</option>
+                            <option value="Elaboración del programa anual de capacitaciones de SST">Elaboración del programa anual de capacitaciones de SST</option>
+                            <option value="Elaboración de los 8 registros obligatorios">Elaboración de los 8 registros obligatorios</option>
+                            <option value="Elaboración de la cartilla de análisis de riesgos por puesto de trabajo">Elaboración de la cartilla de análisis de riesgos por puesto de trabajo</option>
                         </optgroup>
                     </select>
                 </div>
@@ -406,7 +392,7 @@
             </div>
         </div>
         <div class="">
-            <input class="boton" type="submit" name="button" id="button" value="Enviar consultass22">
+            <button class="boton" type="submit" name="button" id="button" value="Enviar consultass33">
         </div>
     </form>
     </div>
