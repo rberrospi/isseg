@@ -9,11 +9,12 @@ $id_curso = $_POST['id_curso'];
 $comentarios = $_POST['comentarios'];
 $empresa = $_POST['empresa'];
 
-if(!$nombre == '' && !$apellidos == '' && !$email == '' && !$telefono == '' && !$id_distrito == '' && !$id_curso == '' && !$comentarios == ''){
+//if(!$nombre == '' && !$apellidos == '' && !$email == '' && !$telefono == '' && !$id_distrito == '' && !$id_curso == '' && !$comentarios == ''){
 
 require('phpmailer/_lib/class.phpmailer.php');
 $mail = new PHPMailer();
 $mail->IsSMTP();
+var_dump($mail); exit;
 $mail->SMTPAuth = true;
 $mail->Host = 'smtp.office365.com';
 $mail->Username = 'rberrospi@institutodeseguridad.edu.pe';
@@ -31,9 +32,9 @@ $mail->Body = $body;
 $exito = $mail->Send();
 
 
-header("Location: primeros-auxilios.php?m=1");
-}else{
-header("Location: primeros-auxilios.php?m=2");
-exit();
-}
+//header("Location: primeros-auxilios.php?m=1");
+//}else{
+//header("Location: primeros-auxilios.php?m=2");
+//exit();
+//}
 ?>
