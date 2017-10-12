@@ -11,7 +11,7 @@ $empresa = $_POST['empresa'];
 
 if(!$nombre == '' && !$apellidos == '' && !$email == '' && !$telefono == '' && !$id_distrito == '' && !$id_curso == '' && !$comentarios == ''){
 
-require('class.phpmailer.php');
+require('phpmailer/_lib/class.phpmailer.php');
 $mail = new PHPMailer();
 $mail->IsSMTP();
 $mail->SMTPAuth = true;
