@@ -1,7 +1,6 @@
 <?php
    $nombre = $apellidos = $email = $telefono = $id_provincia = $id_curso = $para = $headers = $msjCorreo = NULL;
 
-   
 
   if (isset($_POST['submit'])) {
     $nombre = $_POST['nombre'];

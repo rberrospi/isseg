@@ -338,12 +338,12 @@ h1 .campus-virtual {
 
 .boton {
     cursor: pointer;
-    background: #545252;
+    background: #f11c1c;
     padding: 15px;
     color: #ffffff;
     text-decoration: none;
     margin: 25px auto;
-    width: 50%;
+    width: 100%;
     text-align: center;
     -webkit-border-radius: 300px;
     -moz-border-radius: 300px;
@@ -2918,8 +2918,8 @@ icr-ventajas-satisfaccion {
 }
 
 .footer-acreditaciones .logo-acred {
-    width: 196px;
-    height: 39px;
+    width: 180px;
+    height: 75px;
     background: url(../img/logos/acreditaciones-footer.jpg);
     float: left
 }

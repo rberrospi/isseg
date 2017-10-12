@@ -110,12 +110,12 @@
             <div class="menuses">
                 <nav class="principal">
                     <ul>
-                        <li id="masteroficial" class="gotobuscador"><a href="masters-oficiales-grados-universitarios.html" title="">Cursos Online</a></li>
-                        <li id="masterpropio" class="gotobuscador"><a href="masters-profesionales.html" title="Masters Profesionales">Certificaciones profecionales</a></li>
+                        <li id="masteroficial" class="gotobuscador"><a href="" title="">Cursos Online</a></li>
+                        <li id="masterpropio" class="gotobuscador"><a href="" title="Masters Profesionales">Certificaciones profecionales</a></li>
                         <li id="menucursos" class="gotobuscador"><a href="cursos/index.html" title="Cursos">Cursos</a></li>
-                        <li class="nodesplegable"><a href="formacion-empresas.html" title="Descubre nuestros servicios de Formación a Empresas">Formacion a Empresas</a></li>
-                        <li class="nodesplegable"><a href="empleo-practicas.html" title="Empleo y Prácticas">Empleo y Prácticas</a></li>
-                        <li class="nodesplegable"><a href="becas-masters.html" title="Becas y Subvenciones">Becas</a></li>
+                        <li class="nodesplegable"><a href="formacion-empresas.html" title="">Formacion a Empresas</a></li>
+                        <li class="nodesplegable"><a href="empleo-practicas.html" title="">Empleo y Prácticas</a></li>
+                        <li class="nodesplegable"><a href="#" title="">Becas</a></li>
                     </ul>
                 </nav>
                 <nav class="secundaria">
@@ -392,7 +392,7 @@
             </div>
         </div>
         <div class="">
-            <button class="boton" type="submit" name="button" id="button" value="Enviar consultass33">
+            <button class="boton" type="submit" name="button" id="button" value="">Enviar Consulta
         </div>
     </form>
     </div>
